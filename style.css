@@ -1,0 +1,35 @@
+body {
+  min-width: 550px;
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", "Merriweather", sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.block {
+  position: relative;
+  width: 640px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  /*padding: 124px 12px 0;*/
+  font-family: "Merriweather", "Merriweather", serif;
+  background-color: #e2e2e2;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.block h3 {
+  margin: 0 0 2px 0;
+  padding: 0;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.block p {
+  margin: 0 0 8px 0;
+  padding: 0;
+  font-size: 18px;
+  /*font-style: italic;*/
+  line-height: 21px;
+}
