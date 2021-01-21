@@ -1,11 +1,25 @@
+
+@font-face {
+  font-family: Josefin;
+  src: url("fonts/JosefinSans-Light.woff");
+}
+
+@font-face {
+  font-family: JosefinBold;
+  src: url("fonts/JosefinSans-SemiBold.woff");
+}
+
+
 body {
   min-width: 550px;
   padding: 0;
   margin: 0;
-  font-family: "Lato", "Merriweather", sans-serif;
+  font-family: "Josefin", "Josefin", sans-serif;
   font-size: 13px;
   line-height: 18px;
 }
+
+/*============= 404 page =================*/
 
 .block {
   /*position: relative;*/
@@ -14,7 +28,7 @@ body {
   margin-top: 50px;
   margin-left: 500px;
   /*padding: 124px 12px 0;*/
-  font-family: "Merriweather", "Merriweather", serif;
+  font-family: "Josefin", "Josefin", serif;
   background-color: #c6f7d3;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
@@ -22,7 +36,7 @@ body {
 .block h3 {
   margin: 0 0 2px 0;
   padding: 0;
-  font-family: "Lato", sans-serif;
+  font-family: "Josefin", sans-serif;
   font-size: 24px;
   line-height: 30px;
   font-weight: 400;
@@ -31,8 +45,43 @@ body {
 .block p {
   margin: 0 0 8px 0;
   padding: 0;
-  font-family: "Merriweather", serif;
+  font-family: "Josefin", serif;
   font-size: 18px;
   /*font-style: italic;*/
   line-height: 21px;
+}
+
+/*============= About page =================*/
+
+.nav{
+    border:1px solid #FF7400;
+    /*border-width:1px 0;*/
+    border-bottom-width: 5px;
+    border-top-width: 5px;
+    padding-top: 2px;
+    padding-bottom: 0px;
+    list-style:none;
+    margin:20;
+    padding:10;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+    color: #FF7400;
+  	text-decoration: none;
+  	font-size: 26px;
+    font-family: "JosefinBold";
+
+}
+
+.nav a:hover {
+	color: #A64B00
+}
+
+.nav a:focus {
+	color: #A64B00
 }
