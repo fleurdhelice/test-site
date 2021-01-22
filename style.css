@@ -1,11 +1,13 @@
 
 @font-face {
   font-family: Josefin;
+  /*src: url("/test-site/fonts/JosefinSans-Light.woff");*/
   src: url("fonts/JosefinSans-Light.woff");
 }
 
 @font-face {
   font-family: JosefinBold;
+  /*src: url("/test-site/fonts/JosefinSans-SemiBold.woff");*/
   src: url("fonts/JosefinSans-SemiBold.woff");
 }
 
@@ -86,5 +88,66 @@ body {
 	color: #A64B00
 }
 
+.nav a:active {
+	color: #A64B00;
+	text-decoration: underline 
+}
 
-/*=======================*/
+.column-left {
+  float: left;
+  width: 45%;
+  padding: 40px;
+  padding-left:70px;
+  padding-right: 70px;
+  height: 475px;
+  margin-top: 10px;
+  margin-left:5%;
+  margin-right:10px;
+  margin-bottom: 70px;
+  background-color: #FEDE00;
+  line-height:2;
+}
+
+.column-right {
+  float: left;
+  width: 15%;
+  padding: 40px;
+  padding-left:20px;
+  padding-right: 20px;
+  height: 475px;
+  margin-top: 10px;
+  margin-left:50px;
+  margin-right:5%;
+  margin-bottom: 70px;
+  /*background-color: #FEDE99;*/
+  line-height:1.1;
+  text-align: center;
+}
+
+.myphoto {
+  /*background: url('/test-site/images/myphoto.jpg');*/
+  background: url('images/myphoto.jpg');
+  background-size: cover;
+  background-position: center
+}
+
+.myphoto:before{
+	content: "Hi, it's me, Valeria. My name is stressed on the second syllable and my pronouns are she/her.";
+	color: white;
+	font-size: 26px;
+	font-family: JosefinBold
+}
+
+.myphoto-replacement {
+  /*background: url('/test-site/images/sosna43.jpg');*/
+  background: url('images/sosna43.jpg');
+  background-size: cover;
+  background-position: center
+}
+
+.myphoto-replacement:before{
+	content: "Some people prefer being unaware of how people they meet on the Internet look like. Click on the image to see a photo of mine.";
+	color: red;
+	font-size: 26px;
+	font-family: JosefinBold
+}
