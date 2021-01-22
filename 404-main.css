@@ -316,7 +316,7 @@ textarea.input2 + .focus-input2::after {
 }
 
 
-.contact2-form-btn {
+.contact2-form-btn a{
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -328,30 +328,27 @@ textarea.input2 + .focus-input2::after {
   min-width: 244px;
   height: 50px;
 
- 
-
-  font-family: Josefin;
-  font-size: 22px;
+  font-family: JosefinBold;
+  font-size: 24px;
   /*color: #035845;*/
   color: #003026;
   background: #E88446;
   /*opacity: 0.5;*/
   line-height: 1.2;
-  
-
+  text-decoration: none
 }
 
-.contact2-form-btn:hover {
+.contact2-form-btn a:hover {
     color: white
 }
 
-.contact2-form-btn:focus {
+.contact2-form-btn a:focus {
+    color: white
+}
+
+.contact2-form-btn a:active {
     color: white;
     text-decoration: underline
-}
-
-.contact2-form-btn:active {
-    color: white
 }
 
 /*------------------------------------------------------------------
