@@ -434,10 +434,10 @@ textarea.input2 + .focus-input2::after {
 
 
 /*//////////////////////////////////////////////////////////////////
-[ NAV ]*/
+[ MYNAV ]*/
 
-.nav{
-    border:1px solid #035845;
+.mynav{
+    border:0px solid #035845;
     /*border-width:1px 0;*/
     border-bottom-width: 5px;
     border-top-width: 5px;
@@ -449,15 +449,15 @@ textarea.input2 + .focus-input2::after {
     text-align:center;
 }
 
-.nav .currenttab a {
+.mynav .currenttab a {
     /*text-decoration: underline*/
     color: #FF7400
 }
 
-.nav li{
+.mynav li{
     display:inline;
 }
-.nav a{
+.mynav a{
     display:inline-block;
     padding:10px;
     color: #035845;
@@ -467,15 +467,15 @@ textarea.input2 + .focus-input2::after {
 
 }
 
-.nav a:hover {
+.mynav a:hover {
   color: #883705
 }
 
-.nav a:focus {
+.mynav a:focus {
   color: #883705
 }
 
-.nav a:active {
+.mynav a:active {
   color: #883705;
   text-decoration: underline 
 }
