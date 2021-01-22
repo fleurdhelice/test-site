@@ -53,7 +53,7 @@ body {
   line-height: 21px;
 }
 
-/*============= About page =================*/
+/*============= NAV =================*/
 
 .nav{
     border:1px solid #035845;
@@ -98,7 +98,7 @@ body {
 	color: #883705;
 	text-decoration: underline 
 }
-
+/*=====================================================*/
 .column-left {
   float: left;
   width: 45%;
