@@ -165,15 +165,34 @@ body {
   text-align: center;
 }
 
+.layer2:hover {
+  cursor: pointer;
+}
 
-.layer3 {
+
+.layer3photo {
   overflow:hidden;
   float: right;
   width: 100%;
   height: 400px;
   text-align: center;
 
+  /*background: url('/test-site/images/myphoto.jpg');*/
   background: url('images/myphoto.jpg');
+  background-size: cover;
+  background-position: center;
+
+}
+
+.layer3placeholder {
+  overflow:hidden;
+  float: right;
+  width: 100%;
+  height: 400px;
+  text-align: center;
+
+  /*background: url('/test-site/images/sosna43.jpg');*/
+  background: url('images/sosna43.jpg');
   background-size: cover;
   background-position: center;
 
@@ -195,4 +214,8 @@ body {
   padding-left: 5px;
   padding-right: 5px;
   margin-top: 10px;
+}
+
+.hiddentext {
+  display: none;
 }
