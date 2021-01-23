@@ -197,6 +197,13 @@ body ul{
   background: #035845;
 }
 
+.cvtextblock {
+  overflow:hidden;
+  max-width: 1100px;
+  /*background: #af42fa;*/
+  text-align: left;
+}
+
 /*======================== About page ==========================*/
 
 .layer1 {
