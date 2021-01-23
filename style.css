@@ -196,6 +196,29 @@ body ul{
   /*border:10px solid #035845;*/
   background: #035845;
 }
+/*======================== Contact page ==========================*/
+
+.mypagecontent600 {
+  overflow:hidden;
+  max-width: 600px;
+  /*background: #af8efa;*/
+  text-align: center;
+  }
+
+.contactitem {
+  float:left;
+  margin: 1%;
+  /*width:12.2%;  for 7 
+  */width: 14.5%; /*for 6 */
+  }
+
+.contactitem img:hover {
+  /*border:10px solid #035845;*/
+  background: #035845;
+}
+
+
+
 
 /*======================== About page ==========================*/
 
@@ -206,24 +229,6 @@ body ul{
   text-align: left;
   padding: 10px;
 }
-
-/*.layer1 h1{
-  margin-top: 10px;
-  margin-bottom: 0px;
-  font-family: Josefin;
-  font-size: 36px;
-  color: #035845;
-  line-height: 1.1;
-}
-
-.layer1 h2{
-  margin-top: 10px;
-  margin-bottom: 35px;
-  font-family: Josefin;
-  font-size: 30px;
-  color: #035845;
-  line-height: 1.1;
-}*/
 
 .layer2 {
   overflow:hidden;
