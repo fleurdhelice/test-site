@@ -198,8 +198,8 @@ body ul{
 }
 
 .cvtextblock {
-  overflow:hidden;
-  max-width: 800px;
+/*  overflow:hidden;
+*/  max-width: 800px;
   background: #af42fa;
   text-align: left;
 }
