@@ -156,6 +156,11 @@ body ul{
 
 }
 
+.mynav a:visited{
+    color: #035845;
+    text-decoration: none;
+}
+
 .mynav a:hover {
 	color: #883705
 }
