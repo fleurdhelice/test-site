@@ -162,11 +162,13 @@ body ul{
 }
 
 .mynav a:hover {
-	color: #883705
+	color: #883705;
+  text-decoration: none;
 }
 
 .mynav a:focus {
-	color: #883705
+	color: #883705;
+  text-decoration: none;
 }
 
 .mynav a:active {
