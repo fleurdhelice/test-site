@@ -87,6 +87,10 @@ body a:active{
   
 }
 
+body ul{
+  list-style: none
+}
+
 /*============= old 404 page =================*/
 
 .block {
@@ -169,7 +173,7 @@ body a:active{
 /*======================== CV page ==========================*/
 .mypagecontent {
   overflow:hidden;
-  max-width: 900px;
+  max-width: 1100px;
   /*background: #af8efa;*/
   text-align: center;
   }
@@ -274,4 +278,13 @@ body a:active{
 
 .hiddentext {
   display: none;
+}
+
+
+.diamondlist li:before{
+  content: '\1F79B';
+  margin-left: -20px; 
+  margin-right: 5px; 
+  color: #E88446;
+}
 }
