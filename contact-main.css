@@ -1,7 +1,4 @@
 
-
-
-
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
 
@@ -17,7 +14,11 @@
   src: url("fonts/JosefinSans-SemiBold.woff");
 }
 
-
+@font-face {
+  font-family: FontAwesome;
+  /*src: url("/test-site/fonts/FontAwesome.woff");*/
+  src: url("fonts/FontAwesome.woff");
+}
 
 
 /*//////////////////////////////////////////////////////////////////
@@ -201,7 +202,7 @@ iframe {
 .wrap-input2 {
   width: 100%;
   position: relative;
-  border-bottom: 2px solid #1E6555;
+  border-bottom: 2px solid #689e92;
   margin-bottom: 37px;
 }
 
@@ -256,7 +257,7 @@ iframe {
 
   font-family: Josefin;
   font-size: 13px;
-  color: #1E6555;
+  color: #689e92;
   line-height: 1.2
 
 /*  -webkit-transition: all 0.4s;
@@ -406,7 +407,7 @@ textarea.input2 + .focus-input2::after {
 
 .alert-validate::after {
   content: "\f12a";
-  font-family: Josefin;
+  font-family: FontAwesome;
   display: block;
   position: absolute;
   color: #c80000;

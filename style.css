@@ -1,3 +1,11 @@
+/*=========== COLOR CODES ===============
+#035845    basic dark green (menu)
+#FF7400    bright orange (current tab)
+#883705    brown-orange (hovered tab)
+#E88446    soft orange (contact form border)
+#689e92    very light green (instead of grey)
+#003026    very dark green (text on contact button)
+=======================================*/
 
 @font-face {
   font-family: Josefin;
@@ -27,11 +35,59 @@ body {
   margin-bottom: 0px;
   font-family: Josefin;
   font-size: 22px;
-  color: #035845;
+  color: #003026 ;
   line-height: 1.3;
 }
 
-/*============= 404 page =================*/
+body h1{
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-family: JosefinBold;
+  font-size: 36px;
+  color: #FF7400;
+  line-height: 1.1;
+}
+
+body h2{
+  margin-top: 10px;
+  margin-bottom: 35px;
+  font-family: Josefin;
+  font-size: 30px;
+  color: #E88446;
+  line-height: 1.1;
+}
+
+
+body a{
+  color: #E88446;
+  text-decoration: none;
+}
+
+body a:visited{
+  color: #883705;
+  text-decoration: none;
+}
+
+body a:hover{
+  color: #883705;
+  text-decoration: underline;
+  text-decoration-style: solid;
+}
+
+body a:focus{
+  color: #883705;
+  text-decoration: underline; 
+  text-decoration-style: solid;
+}
+
+body a:active{
+  color: #883705;
+  text-decoration: underline;
+  text-decoration-style: double;
+  
+}
+
+/*============= old 404 page =================*/
 
 .block {
   /*position: relative;*/
@@ -68,8 +124,8 @@ body {
 .mynav{
     border:0px solid #035845;
     /*border-width:1px 0;*/
-    border-bottom-width: 5px;
-    border-top-width: 5px;
+    border-bottom-width: 3px;
+    border-top-width: 3px;
     padding-top: 2px;
     padding-bottom: 0px;
     list-style:none;
@@ -140,7 +196,7 @@ body {
   padding: 10px;
 }
 
-.layer1 h1{
+/*.layer1 h1{
   margin-top: 10px;
   margin-bottom: 0px;
   font-family: Josefin;
@@ -156,7 +212,7 @@ body {
   font-size: 30px;
   color: #035845;
   line-height: 1.1;
-}
+}*/
 
 .layer2 {
   overflow:hidden;
@@ -210,7 +266,7 @@ body {
 .layer4 p{
   font-size: 16px;
   font-family: JosefinItalic;
-  color: #035845
+  color: #5fb09e;
   padding-left: 5px;
   padding-right: 5px;
   margin-top: 10px;
