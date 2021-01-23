@@ -138,11 +138,6 @@ body ul{
     text-align:center;
 }
 
-.mynav .currenttab a {
-    /*text-decoration: underline*/
-    color: #FF7400
-}
-
 .mynav li{
     display:inline;
 }
@@ -174,6 +169,11 @@ body ul{
 .mynav a:active {
 	color: #883705;
 	text-decoration: underline 
+}
+
+.mynav .currenttab a {
+    /*text-decoration: underline*/
+    color: #FF7400
 }
 
 
