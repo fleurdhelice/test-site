@@ -211,10 +211,11 @@ body ul{
   color: #689e92;
 }
 
-#activefooter {
+.myfooter .activefooter {
   font-size: 18px;
-  color: #E88446;
+  color: #E88446 !important;
   text-decoration: none;
+
 }
 
 /*======================== CV page ==========================*/
