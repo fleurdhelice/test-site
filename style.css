@@ -211,7 +211,7 @@ body ul{
   color: #689e92;
 }
 
-.activefooter{
+.myfooter .activefooter a{
   font-size: 18px;
   color: #E88446;
   text-decoration: none;
