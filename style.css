@@ -206,7 +206,7 @@ body ul{
   color: #689e92;
 }
 
-.myfooter a:visited{
+.activefooter{
   font-size: 18px;
   color: #E88446;
   text-decoration: none;
