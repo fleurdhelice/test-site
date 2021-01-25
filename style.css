@@ -218,6 +218,27 @@ body ul{
 
 }
 
+/*======================== Go to top button ==========================*/
+
+#myTopBtn {
+  /*display: none;  Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 25px; 
+  right: 80px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  cursor: pointer; 
+  height: 46px;
+  width: 46px;
+  opacity: 0.3;
+  /*background-color: #555;*/
+}
+
+#myTopBtn:hover {
+  /*background-color: #555; */
+  opacity: 1;
+}
+
+
 /*======================== CV page ==========================*/
 .mypagecontent {
   overflow:hidden;
