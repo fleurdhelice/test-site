@@ -27,7 +27,12 @@
             <p>*** This is a sample text. More information will follow shortly. ***</p>
         </div>
         <div id="idlayer2" class="layer2" align="center">
-          <div id="leftpartpicture" class="layer3placeholder"></div>
+          <div>
+            <!-- <img src="/test-site/images/sosna900.jpg" alt="A beautiful pine" width="100%"> -->
+            <img id="layer3placeholder" src="images/sosna900.jpg" alt="A beautiful pine" width="100%">
+            <!-- <img src="/test-site/images/myphoto900.jpg" alt="A photo of mine" width="100%"> -->
+            <img id="layer3photo" class="hiddentext" src="images/myphoto900.jpg" alt="A photo of mine" width="100%">
+          </div>
           <div class="layer4">
             <p id="lefttextplaceholder">Some people prefer being unaware of how others look like. This picture is here to respect their feelings. Click on it to reveal a photo of mine.</p>
             <p id="lefttextphoto" class="hiddentext">Hi, I'm Valeria, nice to meet you! My name is stressed on the second syllable and my pronouns are "she/her".</p>
@@ -43,8 +48,8 @@
 
 <script>
 document.getElementById('idlayer2').onclick = function() {
-  document.getElementById('leftpartpicture').classList.toggle('layer3placeholder')
-  document.getElementById('leftpartpicture').classList.toggle('layer3photo')
+  document.getElementById('layer3placeholder').classList.toggle('hiddentext')
+  document.getElementById('layer3photo').classList.toggle('hiddentext')
   document.getElementById('lefttextplaceholder').classList.toggle('hiddentext')
   document.getElementById('lefttextphoto').classList.toggle('hiddentext')
 }
