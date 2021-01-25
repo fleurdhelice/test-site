@@ -17,6 +17,10 @@
       <li><a href="/test-site/contact.html">Contact</a></li>
     </ul>
 
+   <div onclick="topFunction()" id="myTopBtn" title="Go to top">
+      <img src="images/mnt-green.png" width="100%">
+    </div>
+
     <div class="mycontent" align="center">
       <div class="mypagecontent800left">
         <ul class="diamondlist">
@@ -32,6 +36,21 @@
 <a href="/test-site/aboutsite.html" class="activefooter">learn more about this website</a>
 </footer>
 
-<script src="research-script.js"></script>
+<script>
+var mybutton = document.getElementById("myTopBtn");
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+</script>
   </body>
 </html>

@@ -221,7 +221,7 @@ body ul{
 /*======================== Go to top button ==========================*/
 
 #myTopBtn {
-  /*display: none;  */
+  display: none;  
   position: fixed; /* Fixed/sticky position */
   bottom: 25px; 
   right: 80px;

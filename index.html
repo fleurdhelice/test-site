@@ -17,6 +17,10 @@
       <li><a href="/test-site/contact.html">Contact</a></li>
     </ul>
 
+   <div onclick="topFunction()" id="myTopBtn" title="Go to top">
+      <img src="images/mnt-green.png" width="100%">
+    </div>
+
     <div class="mycontent" align="center">
       <div class="mypagecontent" align="center">
         <div class="layer1">
@@ -53,6 +57,21 @@ document.getElementById('idlayer2').onclick = function() {
   document.getElementById('lefttextplaceholder').classList.toggle('hiddentext')
   document.getElementById('lefttextphoto').classList.toggle('hiddentext')
 }
+
+var mybutton = document.getElementById("myTopBtn");
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
 </script>
   </body>
 </html>
