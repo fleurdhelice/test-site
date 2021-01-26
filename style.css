@@ -252,8 +252,8 @@ body ul{
 .mypagecontentjust {
   overflow:hidden;
   max-width: 1100px;
-  /*background: #af8efa;*/
   text-align: justify;
+  /*background: yellow;*/
   }
 /*==============================================================*/
 
@@ -274,7 +274,7 @@ body ul{
   overflow:hidden;
   max-width: 600px;
   /*background: #af8efa;*/
-  text-align: center;
+  /*text-align: center;*/
   }
 
 .mypagecontent800left {
@@ -307,6 +307,7 @@ body ul{
   width: 60%;
   text-align: left;
   padding: 10px;
+  background: yellow;
 }
 
 .layer2 {
@@ -349,4 +350,362 @@ body ul{
   margin-right: 5px; 
   color: #E88446;
 }
+
+/*================================================================================================*/
+.tagblock{
+  overflow:hidden;
+  width: 100%;
+  text-align: left;
+  /*background: blue;*/
 }
+
+.howtoblock{
+  overflow:hidden;
+  float: right;
+  width: 100%;
+  text-align: left;
+  /*background: blue;*/
+}
+
+.howtoblock h3{
+  font-size: 22px;
+  /*color: black;*/
+  line-height: 1.1;
+  margin-left: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.howtoblock p{
+  font-size: 20px;
+  /*color: black;*/
+  line-height: 1.1;
+  margin-left: 10px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+
+}
+
+.taggroup {
+  overflow: hidden;
+  float: left;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  margin-top: 0;
+  margin-bottom: 1%;
+  width: 29%;
+  text-align: left;
+  background: #f2f2f2;
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-bottom: 5px;
+  padding-right: 15px;
+}
+
+.taggroup h3{
+  font-family: Josefin;
+  font-size: 18px;
+  color: black;
+  margin: 0;
+}
+
+.tagbutton {
+  /*background:yellow;*/
+  display:inline-block;
+  padding-right: 4px;
+  padding-left: 4px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  /*margin-left: 3px;*/
+  margin-right: -1px;
+  font-size:16px;
+  margin-bottom: 1px;
+  font-family: JosefinBold;
+  text-decoration:none;
+  transform: skew(-25deg);
+}
+
+.skew-fix{
+  display:inline-block;
+  transform: skew(25deg);
+}
+
+.excluded{
+  background: red !important;
+  border: 1px solid red !important;
+  color: white !important;
+}
+
+.excluded:hover{
+  background: red !important;
+  border: 1px solid black !important;
+  color: white !important;
+}
+
+.excluded:focus{
+  background: red !important;
+  border: 1px solid black !important;
+  color: white !important;
+}
+
+.excludebutton{
+  height: 20px;
+  width: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+  font-size: 16px;
+  font-family: JosefinBold;
+  color: white;
+  text-align: center;
+  padding: 0;
+  margin-top: 5px;
+  background: black;
+  display:inline-block;
+  float: right;
+}
+
+.excludebutton:hover{
+  border: 1px solid black;
+  background: red;
+  cursor: pointer;
+}
+
+.excludebutton:focus{
+  border: 1px solid black;
+  background: red;
+  cursor: pointer;
+}
+
+.excludebutton.selected{
+  border: 1px solid red;
+  background: red;
+}
+
+.excludebutton.selected:hover{
+  border: 1px solid black;
+  background: red;
+  cursor: pointer;
+}
+
+.excludebutton.selected:focus{
+  border: 1px solid black;
+  background: red;
+  cursor: pointer;
+}
+
+/*===================== Coloring buttons ========================*/
+
+.beige{
+  background: #FAD2BA;
+  color: #9F5D34;
+  border: 1px solid  #FAD2BA;
+}
+
+.beige:hover{
+  border: 1px solid #9F5D34;
+  cursor: pointer;
+}
+
+.beige:focus{
+  border: 1px solid #9F5D34;
+  cursor: pointer;
+}
+
+.beige.selected{
+  background: #9F5D34;
+  color: #FAD2BA;
+  border: 1px solid  #9F5D34;
+}
+
+.beige.selected:hover{
+  background: #9F5D34;
+  color: #FAD2BA;
+  border: 1px solid  #FAD2BA;
+}
+
+.beige.selected:focus{
+  background: #9F5D34;
+  color: #FAD2BA;
+  border: 1px solid  #FAD2BA;
+}
+
+.pink{
+  background: #F3B5BF;
+  color: #963241;
+  border: 1px solid  #F3B5BF;
+}
+
+.pink:hover{
+  border: 1px solid #963241;
+  cursor: pointer;
+}
+
+.pink:focus{
+  border: 1px solid #963241;
+  cursor: pointer;
+}
+
+.pink.selected{
+  background: #963241;
+  color: #F3B5BF;
+  border: 1px solid  #963241;
+}
+
+.pink.selected:hover{
+  background: #963241;
+  color: #F3B5BF;
+  border: 1px solid  #F3B5BF;
+  cursor: pointer;
+}
+
+.pink.selected:focus{
+  background: #963241;
+  color: #F3B5BF;
+  border: 1px solid  #F3B5BF;
+  cursor: pointer;
+}
+
+.violet{
+  background: #ACA5D5;
+  color: #31276E;
+  border: 1px solid  #ACA5D5;
+}
+
+.violet:hover{
+  border: 1px solid #31276E;
+  cursor: pointer;
+}
+
+.violet:focus{
+  border: 1px solid #31276E;
+  cursor: pointer;
+}
+
+.violet.selected{
+  background: #31276E;
+  color: #ACA5D5;
+  border: 1px solid  #31276E;
+}
+
+.violet.selected:hover{
+  background: #31276E;
+  color: #ACA5D5;
+  border: 1px solid  #ACA5D5;
+  cursor: pointer;
+}
+
+.violet.selected:focus{
+  background: #31276E;
+  color: #ACA5D5;
+  border: 1px solid  #ACA5D5;
+  cursor: pointer;
+}
+
+.blue{
+  background: #9FB4D0;
+  color: #244169;
+  border: 1px solid  #9FB4D0;
+}
+
+.blue:hover{
+  border: 1px solid #244169;
+  cursor: pointer;
+}
+
+.blue:focus{
+  border: 1px solid #244169;
+  cursor: pointer;
+}
+
+.blue.selected{
+  background: #244169;
+  color: #9FB4D0;
+  border: 1px solid  #244169;
+}
+
+.blue.selected:hover{
+  background: #244169;
+  color: #9FB4D0;
+  border: 1px solid  #9FB4D0;
+  cursor: pointer;
+}
+
+.blue.selected:focus{
+  background: #244169;
+  color: #9FB4D0;
+  border: 1px solid  #9FB4D0;
+  cursor: pointer;
+}
+
+.yellow{
+  background: #FAE2BA;
+  color: #9F7734;
+  border: 1px solid  #FAE2BA;
+}
+
+.yellow:hover{
+  border: 1px solid #9F7734;
+  cursor: pointer;
+}
+
+.yellow:focus{
+  border: 1px solid #9F7734;
+  cursor: pointer;
+}
+
+.yellow.selected{
+  background: #9F7734;
+  color: #FAE2BA;
+  border: 1px solid  #9F7734;
+}
+
+.yellow.selected:hover{
+  background: #9F7734;
+  color: #FAE2BA;
+  border: 1px solid  #FAE2BA;
+  cursor: pointer;
+}
+
+.yellow.selected:focus{
+  background: #9F7734;
+  color: #FAE2BA;
+  border: 1px solid  #FAE2BA;
+  cursor: pointer;
+}
+
+.green{
+  background: #BDE8AD;
+  color: #45882D;
+  border: 1px solid  #BDE8AD;
+}
+
+.green:hover{
+  border: 1px solid #45882D;
+  cursor: pointer;
+}
+
+.green:focus{
+  border: 1px solid #45882D;
+  cursor: pointer;
+}
+
+.green.selected{
+  background: #45882D;
+  color: #BDE8AD;
+  border: 1px solid  #45882D;
+}
+
+.green.selected:hover{
+  background: #45882D;
+  color: #BDE8AD;
+  border: 1px solid  #BDE8AD;
+  cursor: pointer;
+}
+
+.green.selected:focus{
+  background: #45882D;
+  color: #BDE8AD;
+  border: 1px solid  #BDE8AD;
+  cursor: pointer;
+}
+
