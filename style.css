@@ -307,7 +307,7 @@ body ul{
   width: 60%;
   text-align: left;
   padding: 10px;
-  background: yellow;
+  /*background: yellow;*/
 }
 
 .layer2 {
@@ -344,12 +344,28 @@ body ul{
 }
 
 
-.diamondlist li:before{
-  content: '\1F79B';
-  margin-left: -20px; 
-  margin-right: 5px; 
-  color: #E88446;
+
+.diamondlist{
+  padding: 0;
+  margin: 50px;
+  /*list-style-type: none;*/
+  /*list-style-image: url('images/diamond30.png');*/
 }
+
+.diamondlist li{
+    background-image: url('images/dia25grad.png');
+    background-repeat: no-repeat;
+    line-height: 25px;
+    padding-left: 30px;
+    margin-bottom: 15px;
+}
+
+/*..diamondlist li:before{{
+  background: url('images/diamond-grad.png') no-repeat left top;
+  height: 30px;
+  padding-top: 7px;
+  padding-left: 44px;
+}*/
 
 /*================================================================================================*/
 .tagblock{
