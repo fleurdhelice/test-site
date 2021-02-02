@@ -287,8 +287,8 @@ body ul{
 .contactitem {
   float:left;
   margin: 1%;
-  /*width:12.2%;  for 7 
-  */width: 14.5%; /*for 6 */
+  width:12.2%;  /*for 7 
+  width: 14.5%; for 6 */
   }
 
 .contactitem img:hover {
