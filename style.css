@@ -347,7 +347,10 @@ body ul{
 
 .diamondlist{
   padding: 0;
-  margin: 50px;
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-right: 0px;
+  margin-bottom: 0px;
   /*list-style-type: none;*/
   /*list-style-image: url('images/diamond30.png');*/
 }
