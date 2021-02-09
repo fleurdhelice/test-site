@@ -30,109 +30,198 @@
       <div class="tagblock" align="center">
         <div class="taggroup">
           <h3>Paper type</h3>
-          <div class="tagbutton beige">
+          <div class="tagbutton violet">
             <span class="skew-fix">article</span>
           </div>
-          <div class="tagbutton beige">
+          <div class="tagbutton violet">
             <span class="skew-fix">talk</span>
           </div>
-          <div class="tagbutton beige selected">
+          <div class="tagbutton violet">
+            <span class="skew-fix">poster</span>
+          </div>
+          <div class="tagbutton violet">
             <span class="skew-fix">review</span>
           </div>
-          <div class="excludebutton">
+          <div id="exViolet" class="excludebutton">
             <span>–</span>
           </div>
         </div>
         <div class="taggroup">
           <h3>Language of the paper</h3>
-          <div class="tagbutton pink selected">
+          <div class="tagbutton pink">
             <span class="skew-fix">eng</span>
           </div>
           <div class="tagbutton pink">
             <span class="skew-fix">rus</span>
           </div>
-          <div class="excludebutton">
+          <div id="exPink" class="excludebutton">
             <span>–</span>
           </div>
         </div>
         <div class="taggroup">
           <h3>Object languages</h3>
-          <div class="tagbutton violet">
+          <div class="tagbutton beige" onclick="my_toggle_lang(); sync()">
             <span class="skew-fix">hur</span>
           </div>
-          <div class="tagbutton violet selected">
+          <div class="tagbutton beige">
             <span class="skew-fix">bak</span>
           </div>
-          <div class="tagbutton violet">
+          <div class="tagbutton beige">
+            <span class="skew-fix">ces</span>
+          </div>
+          <div class="tagbutton beige">
+            <span class="skew-fix">eng</span>
+          </div>
+          <div class="tagbutton beige">
+            <span class="skew-fix">fra</span>
+          </div>
+          <div class="tagbutton beige">
+            <span class="skew-fix">kjh</span>
+          </div>
+          <div class="tagbutton beige">
+            <span class="skew-fix">lat</span>
+          </div>
+          <div class="tagbutton beige">
+            <span class="skew-fix">pol</span>
+          </div>
+          <div class="tagbutton beige">
             <span class="skew-fix">rus</span>
           </div>
-          <div class="excludebutton">
+          <div class="tagbutton beige">
+            <span class="skew-fix">tyv</span>
+          </div>
+          <div class="tagbutton beige">
+            <span class="skew-fix">xal</span>
+          </div>
+          <div id="exBeige" class="excludebutton">
             <span>–</span>
           </div>
         </div>
         <div class="taggroup">
           <h3>Year</h3>
-          <div class="tagbutton blue">
+          <div class="tagbutton yellow">
             <span class="skew-fix">2021</span>
           </div>
-          <div class="tagbutton blue">
+          <div class="tagbutton yellow">
             <span class="skew-fix">2020</span>
           </div>
-          <div class="tagbutton blue">
+          <div class="tagbutton yellow">
             <span class="skew-fix">2019</span>
           </div>
-          <div class="tagbutton blue">
+          <div class="tagbutton yellow">
             <span class="skew-fix">2018</span>
           </div>
-          <div class="tagbutton blue">
+          <div class="tagbutton yellow">
             <span class="skew-fix">2017</span>
           </div>
-          <div class="tagbutton blue">
+          <div class="tagbutton yellow">
             <span class="skew-fix">2016</span>
           </div>
-          <div class="tagbutton blue">
+          <div class="tagbutton yellow">
             <span class="skew-fix">2015</span>
           </div>
-          <div class="tagbutton blue selected">
+          <div class="tagbutton yellow">
             <span class="skew-fix">2014</span>
           </div>
-          <div class="tagbutton blue selected">
+          <div class="tagbutton yellow">
             <span class="skew-fix">2013</span>
           </div>
-          <div class="tagbutton blue selected">
+          <div class="tagbutton yellow">
             <span class="skew-fix">2012</span>
           </div>
-          <div class="excludebutton">
+          <div id="exYellow" class="excludebutton">
             <span>–</span>
           </div>
         </div>
         <div class="taggroup">
           <h3>Area</h3>
-          <div class="tagbutton yellow selected">
+          <div class="tagbutton blue">
             <span class="skew-fix">syntax</span>
           </div>
-          <div class="tagbutton yellow">
+          <div class="tagbutton blue">
+            <span class="skew-fix">morphology</span>
+          </div>
+          <div class="tagbutton blue">
             <span class="skew-fix">semantics</span>
           </div>
-          <div class="tagbutton yellow">
+          <div class="tagbutton blue">
+            <span class="skew-fix">computational</span>
+          </div>
+          <div class="tagbutton blue">
             <span class="skew-fix">typology</span>
           </div>
-          <div class="excludebutton">
+          <div class="tagbutton blue">
+            <span class="skew-fix">RRG</span>
+          </div>
+          <div class="tagbutton blue">
+            <span class="skew-fix">digital humanities</span>
+          </div>
+          <div id="exBlue" class="excludebutton">
             <span>–</span>
           </div>
         </div>
         <div class="taggroup">
           <h3>Keywords</h3>
-          <div class="tagbutton green">
+          <div class="tagbutton green" 
+              onclick="if (getElementById('exGreen').classList.contains('selected')){this.classList.remove('selected');this.classList.toggle('excluded');} else {this.classList.toggle('selected');}">
             <span class="skew-fix">verbal derivation</span>
           </div>
-          <div class="tagbutton green">
+          <div class="tagbutton green" 
+              onclick="if (getElementById('exGreen').classList.contains('selected')){this.classList.remove('selected');this.classList.toggle('excluded');} else {this.classList.toggle('selected');}">
+            <span class="skew-fix">causative</span>
+          </div>
+          <div class="tagbutton green" 
+              onclick="if (getElementById('exGreen').classList.contains('selected')){this.classList.remove('selected');this.classList.toggle('excluded');} else {this.classList.toggle('selected');}">
+            <span class="skew-fix">ditransitive</span>
+          </div>
+          <div class="tagbutton green" 
+              onclick="if (getElementById('exGreen').classList.contains('selected')){this.classList.remove('selected');this.classList.toggle('excluded');} else {this.classList.toggle('selected');}">
+            <span class="skew-fix">applicative</span>
+          </div>
+         <div class="tagbutton green" 
+              onclick="if (getElementById('exGreen').classList.contains('selected')){this.classList.remove('selected');this.classList.toggle('excluded');} else {this.classList.toggle('selected');}">
+            <span class="skew-fix">argument linking</span>
+          </div>
+          <div class="tagbutton green" 
+              onclick="if (getElementById('exGreen').classList.contains('selected')){this.classList.remove('selected');this.classList.toggle('excluded');} else {this.classList.toggle('selected');}">
+            <span class="skew-fix">distributional semantics</span>
+          </div>
+          <div class="tagbutton green"
+              onclick="if (getElementById('exGreen').classList.contains('selected')){this.classList.remove('selected');this.classList.toggle('excluded');} else {this.classList.toggle('selected');}">
+            <span class="skew-fix">causatives</span>
+          </div>
+          <div class="tagbutton green"
+              onclick="if (getElementById('exGreen').classList.contains('selected')){this.classList.remove('selected');this.classList.toggle('excluded');} else {this.classList.toggle('selected');}">
+            <span class="skew-fix">metagrammar</span>
+          </div>
+          <div class="tagbutton green"
+              onclick="if (getElementById('exGreen').classList.contains('selected')){this.classList.remove('selected');this.classList.toggle('excluded');} else {this.classList.toggle('selected');}">
             <span class="skew-fix">deverbal adjectives</span>
           </div>
-          <div class="tagbutton green excluded">
+          <div class="tagbutton green"
+              onclick="if (getElementById('exGreen').classList.contains('selected')){this.classList.remove('selected');this.classList.toggle('excluded');} else {this.classList.toggle('selected');}">
             <span class="skew-fix">chatbots</span>
           </div>
-          <div class="excludebutton selected">
+          <div class="tagbutton green"
+              onclick="if (getElementById('exGreen').classList.contains('selected')){this.classList.remove('selected');this.classList.toggle('excluded');} else {this.classList.toggle('selected');}">
+            <span class="skew-fix">stereotype</span>
+          </div>
+          <div class="tagbutton green"
+              onclick="if (getElementById('exGreen').classList.contains('selected')){this.classList.remove('selected');this.classList.toggle('excluded');} else {this.classList.toggle('selected');}">
+            <span class="skew-fix">verbs of counteraction</span>
+          </div>
+          <div id="exGreen" class="excludebutton" onclick="this.classList.toggle('selected');
+          var tags =  document.getElementsByClassName('green');
+          if (this.classList.contains('selected'))
+            {for (elem in tags) 
+              {if (elem.classList.contains('selected'))
+                {elem.classList.remove('selected');
+                 elem.classList.add('excluded');}}}
+          else 
+             {for (elem in tags)
+              {if (elem.classList.contains('excluded')) 
+                 {elem.classList.remove('excluded');
+                 elem.classList.add('selected');}}}">
             <span>–</span>
           </div>
         </div>
@@ -164,8 +253,37 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
-
 </script>
+
+<!-- <script>
+    let elements = document.getElementsByClassName("tagbutton");
+    for (element in elements) {element.onclick = mytoggle(element);
+      cons
+    }
+
+
+
+function mytoggle(element) {
+  if (element.classList.contains("blue")) {excluder = getElementById('exBlue');}
+  else if (element.classList.contains("green")) {excluder = getElementById('exGreen');}
+  else if (element.classList.contains("yellow")) {excluder = getElementById('exYellow');}
+  else if (element.classList.contains("beige")) {excluder = getElementById('exBeige');}
+  else if (element.classList.contains("pink")) {excluder = getElementById('exPink');}
+  else if (element.classList.contains("violet")) {excluder = getElementById('exViolet');}
+
+  if (excluder.classList.contains("selected")) {
+      if (element.classList.toggle("selected")) {
+        element.classList.toggle("selected");
+        element.classList.toggle("excluded");}}
+  else {element.classList.toggle("selected")}
+
+// function extoggle(excluder) {
+//   excluder.classList.toggle("selected");
+
+}
+
+
+</script> -->
 
 </body>
 </html>

@@ -457,14 +457,14 @@ body ul{
 
 .excluded:hover{
   background: red !important;
-  border: 1px solid black !important;
-  color: white !important;
+  border: 1px solid red !important;
+  color: black !important;
 }
 
 .excluded:focus{
   background: red !important;
-  border: 1px solid black !important;
-  color: white !important;
+  border: 1px solid red !important;
+  color: black !important;
 }
 
 .excludebutton{
@@ -484,13 +484,14 @@ body ul{
 }
 
 .excludebutton:hover{
-  border: 1px solid black;
+  border: 1px solid red;
   background: red;
   cursor: pointer;
+  color: black
 }
 
 .excludebutton:focus{
-  border: 1px solid black;
+  border: 1px solid red;
   background: red;
   cursor: pointer;
 }
@@ -500,17 +501,17 @@ body ul{
   background: red;
 }
 
-.excludebutton.selected:hover{
+/*.excludebutton.selected:hover{
   border: 1px solid black;
-  background: red;
+  background: black;
   cursor: pointer;
 }
 
 .excludebutton.selected:focus{
   border: 1px solid black;
-  background: red;
+  background: black;
   cursor: pointer;
-}
+}*/
 
 /*===================== Coloring buttons ========================*/
 
