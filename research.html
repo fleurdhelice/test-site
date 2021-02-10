@@ -211,14 +211,14 @@
             <span class="skew-fix">verbs of counteraction</span>
           </div>
           <div id="exGreen" class="excludebutton" onclick="this.classList.toggle('selected');
-          var tags =  document.getElementsByClassName('green');
+          var tags = document.getElementsByClassName('green');
           if (this.classList.contains('selected'))
-            {for (elem in tags) 
+            {for (elem of tags) 
               {if (elem.classList.contains('selected'))
                 {elem.classList.remove('selected');
                  elem.classList.add('excluded');}}}
           else 
-             {for (elem in tags)
+             {for (elem of tags)
               {if (elem.classList.contains('excluded')) 
                  {elem.classList.remove('excluded');
                  elem.classList.add('selected');}}}">
