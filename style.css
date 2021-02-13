@@ -421,6 +421,18 @@ body ul{
   padding-right: 15px;
 }
 
+.taggroup.short{
+  width: 17%;
+}
+
+.taggroup.shortened{
+  width: 23%;
+}
+
+.taggroup.long{
+  width: 47%; 
+}
+
 .taggroup h3{
   font-family: Josefin;
   font-size: 18px;
