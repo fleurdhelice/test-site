@@ -234,7 +234,7 @@ var db = [
 }, {
 	"title" : "V. Generalova, <strong>Towards a cross-linguistic description of morphological causatives: issues in syntax-semantics linking</strong>, In: A. Pavlova (ed.) Proceedings of the ESSLLI & WeSSLLI Student Session 2020, Brandies University, pp. 55-66, 2020.",
 	"tagYear" : ["2020"],
-	"tagPaperType" : ["proceedings paper"],
+	"tagPaperType" : ["in proceedings"],
 	"tagLang" : ["eng"],
 	"tagObjectLangs" : ["niv", "bak", "hur"], 
 	"tagArea" : ["syntax", "typology"], 
@@ -244,7 +244,7 @@ var db = [
 }, {
 	"title" : "V. Generalova, <strong>Making war Slavic-like, or just choosing a preposition</strong>, In: M. Simeunovich-Skvortsova et al. (eds.) VARIA XXIV. Zborník príspevkov z XXIV. kolokvia mladých jazykovedcov. (Praha 9. – 11. 9. 2015) [Proceedings of the 24th Colloquium of Young Linguists in Prague, 9-11 September 2015], pp. 96-106, 2019.",
 	"tagYear" : ["2019"],
-	"tagPaperType" : ["proceedings paper"],
+	"tagPaperType" : ["in proceedings"],
 	"tagLang" : ["eng"],
 	"tagObjectLangs" : ["rus", "ces", "pol"], 
 	"tagArea" : ["syntax"], 
@@ -254,7 +254,7 @@ var db = [
 }, {
 	"title" : "V. Generalova, <strong>Differencial'noe markirovanie subjekta v konstrukcijax s sentencial'nymi aktantami [Differencial subject marking in Bashkir constructions with sentential agents]</strong>, In: Materialy XIV Vserossijskoj nauchnoj konferencii «Aktual'nye problemy dialektologii jazykov narodov Rossii» [Proceedings of the 14th Conference «Actual Problems of Dialectology of Minor Languages in Russia»], pp. 130-136, 2014.",
 	"tagYear" : ["2014"],
-	"tagPaperType" : ["proceedings paper"],
+	"tagPaperType" : ["in proceedings"],
 	"tagLang" : ["rus"],
 	"tagObjectLangs" : ["bak"], 
 	"tagArea" : ["syntax"], 
