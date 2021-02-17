@@ -238,8 +238,10 @@
 <a href="/test-site/aboutsite.html">learn more about this website</a>
 </footer>
 
+<script type="text/javascript" src="db.js"></script>
 
 <script>
+
   var mybutton = document.getElementById("myTopBtn");
   window.onscroll = function() {scrollFunction()};
   function scrollFunction() {
@@ -270,6 +272,8 @@
           element.classList.remove("selected");
           element.classList.toggle("excluded");}
     else {element.classList.toggle("selected");}
+
+    mysync();
   }
 
   function extoggle(excluder) {
@@ -294,9 +298,84 @@
         {if (elem.classList.contains('excluded')) 
               {elem.classList.remove('excluded');
               elem.classList.add('selected');}}}
+    mysync();
 }
 
+  function mysync(){
+    let Mydict = new Map();
+
+    var selectedYear = [];
+    for (y of document.getElementsByClassName("selected yellow")) {selectedYear.push(y.innerText);}
+    Mydict.set('tagYear', selectedYear);
+
+    var selectedPaperType = [];
+    for (y of document.getElementsByClassName("selected violet")) {selectedPaperType.push(y.innerText);}
+    Mydict.set('tagPaperType', selectedPaperType);
+
+    var selectedObjectLangs = [];
+    for (y of document.getElementsByClassName("selected beige")) {selectedObjectLangs.push(y.innerText);}
+    Mydict.set('tagObjectLangs', selectedObjectLangs);
+
+    var selectedArea = [];
+    for (y of document.getElementsByClassName("selected blue")) {selectedArea.push(y.innerText);}
+    Mydict.set('tagArea', selectedArea);
+
+    var selectedKeywords = [];
+    for (y of document.getElementsByClassName("selected green")) {selectedKeywords.push(y.innerText);}
+    Mydict.set('tagKeywords', selectedKeywords);
+
+    var selectedLang = [];
+    for (y of document.getElementsByClassName("selected pink")) {selectedLang.push(y.innerText);}
+    Mydict.set('tagLang', selectedLang);
+
+    var filteredDB = [];
+    for (entry of db) {
+        const myjson = JSON.stringify(entry);
+        const myobj = JSON.parse(myjson);
+        // console.log(myobj);
+        // console.log(myobj.tagYear);
+
+        var answer = true;
+        for (k of Mydict.keys()){
+            answer = answer && mycheck(k, Mydict, myobj);
+             }
+        if (answer) {filteredDB.push(entry)}
+    }
+
+  for (e of filteredDB) {console.log(e);}
+
+
+
+    //теперь рисование
+      
+  }
+
+
+  function mycheck(k, Mydict, myobj){
+          console.log("start");
+          // console.log(myobj);
+          var mytag = k.toString();
+          console.log(mytag, typeof mytag);
+          console.log(myobj.tagYear);
+          console.log(myobj.mytag);
+          console.log("finish")
+
+          // if (Mydict.get(k).length != 0) {
+          //   for (elem of Mydict.get(k)) {
+          //     if (myobj.mytag.includes(elem)) {
+          //       return true;
+          //     }}
+          //   return false;
+          // } else {
+          //   return true;
+          // }
+}
+
+  
+
 </script>
+
+
 
 </body>
 </html>
