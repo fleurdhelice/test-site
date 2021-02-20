@@ -342,7 +342,8 @@
         if (answer) {filteredDB.push(entry)}
     }
 
-  for (e of filteredDB) {console.log(e);}
+  console.log("DB filtered successfully", filteredDB.length)
+  //for (e of filteredDB) {console.log(e);}
 
 
 
@@ -352,23 +353,24 @@
 
 
   function mycheck(k, Mydict, myobj){
-          console.log("start");
-          // console.log(myobj);
-          var mytag = k.toString();
-          console.log(mytag, typeof mytag);
-          console.log(myobj.tagYear);
-          console.log(myobj.mytag);
-          console.log("finish")
+                 var myobjmytag
+          if (k == "tagYear") {myobjmytag = myobj.tagYear;}
+          if (k == "tagPaperType") {myobjmytag = myobj.tagPaperType;}
+          if (k == "tagArea") {myobjmytag = myobj.tagArea;}
+          if (k == "tagLang") {myobjmytag = myobj.tagLang;}
+          if (k == "tagObjectLangs") {myobjmytag = myobj.tagObjectLangs;}
+          if (k == "tagKeywords") {myobjmytag = myobj.tagKeywords;}
 
-          // if (Mydict.get(k).length != 0) {
-          //   for (elem of Mydict.get(k)) {
-          //     if (myobj.mytag.includes(elem)) {
-          //       return true;
-          //     }}
-          //   return false;
-          // } else {
-          //   return true;
-          // }
+
+          if (Mydict.get(k).length != 0) {
+            for (elem of Mydict.get(k)) {
+              if (myobjmytag.includes(elem)) {
+                return true;
+              }}
+            return false;
+          } else {
+            return true;
+          }
 }
 
   
