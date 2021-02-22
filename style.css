@@ -224,18 +224,18 @@ body ul{
   display: none;  
   position: fixed; /* Fixed/sticky position */
   bottom: 25px; 
-  right: 80px;
-  z-index: 99; /* Make sure it does not overlap */
+  left: 19%;
+  /*z-index: 99;  Make sure it does not overlap */
   cursor: pointer; 
   height: 46px;
   width: 46px;
-  opacity: 0.3;
+  opacity: 1;
   /*background-color: #555;*/
 }
 
 #myTopBtn:hover {
-  /*background-color: #555; */
-  opacity: 1;
+  background-color: #f7ab7d; 
+  /*opacity: 1;*/
 }
 
 
