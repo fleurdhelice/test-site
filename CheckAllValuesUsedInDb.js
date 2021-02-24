@@ -295,3 +295,32 @@ var db = [
 
 } ]
 
+var selectedYear = [];
+var selectedPaperType = [];
+var selectedObjectLangs = [];
+var selectedArea = [];
+var selectedKeywords = [];
+var selectedLang = [];
+
+    var filteredDB = [];
+    for (entry of db) {
+        const myjson = JSON.stringify(entry);
+        const myobj = JSON.parse(myjson);
+        for (y of myobj.tagYear) {selectedYear.push(y);}
+        for (pt of myobj.tagPaperType) {selectedPaperType.push(pt);}
+        for (ol of myobj.tagObjectLangs) {selectedObjectLangs.push(ol);}
+        for (a of myobj.tagArea) {selectedArea.push(a);}
+        for (k of myobj.tagKeywords) {selectedKeywords.push(k);}
+        for (l of myobj.tagLang) {selectedLang.push(l);}}
+    var uniqY= [...new Set(selectedYear)];
+    console.log(uniqY);
+        var uniqPT= [...new Set(selectedPaperType)];
+    console.log(uniqPT);
+        var uniqOLang= [...new Set(selectedObjectLangs)];
+    console.log(uniqOLang);
+        var uniqArea= [...new Set(selectedArea)];
+    console.log(uniqArea);
+        var uniqKw= [...new Set(selectedKeywords)];
+    console.log(uniqKw);
+        var uniqLang= [...new Set(selectedLang)];
+    console.log(uniqLang);
