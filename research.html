@@ -321,17 +321,17 @@
     var excludedPaperType = [];
     for (y of document.getElementsByClassName("excluded violet")) {excludedPaperType.push(y.innerText);}
     MydictExcluded.set('tagPaperType', excludedPaperType);
-// -----------------------------------
+
+
     var selectedObjectLangs = [];
     for (y of document.getElementsByClassName("selected beige")) {selectedObjectLangs.push(y.innerText);}
     MydictSelected.set('tagObjectLangs', selectedObjectLangs);
-    // console.log(MydictSelected);
 
     var excludedObjectLangs = [];
     for (y of document.getElementsByClassName("excluded beige")) {excludedObjectLangs.push(y.innerText);}
     MydictExcluded.set('tagObjectLangs', excludedObjectLangs);  
-    // console.log(MydictExcluded);
-// -----------------------------------
+
+
     var selectedArea = [];
     for (y of document.getElementsByClassName("selected blue")) {selectedArea.push(y.innerText);}
     MydictSelected.set('tagArea', selectedArea);
@@ -370,37 +370,14 @@
         var answer = mycheck(k, MydictSelected, myobj);
         if (answer) {filteredDB.push(entry)};
       }
-      console.log(k, "bearbeitet; filtered DB has", filteredDB.length);
       workingDB = filteredDB;
       filteredDB = [];
-      console.log("new workingDB has", workingDB.length);
     }
 
-
-
-
-    // for (entry of db) {
-    //     const myjson = JSON.stringify(entry);
-    //     const myobj = JSON.parse(myjson);
-    //     // console.log(myobj);
-    //     // console.log(myobj.tagYear);
-
-    //     var answer = true;
-    //     for (k of MydictSelected.keys()){
-    //         answer = answer && mycheck(k, MydictSelected, myobj);
-    //          }
-    //     if (answer) {filteredDB.push(entry)}
-    // }
-
     var finalDB = [];
-    
-    // if (workingDB.length != 0) {workingDB = filteredDB;}
-    // else {workingDB = db};
-    // // console.log("Length of working DB", workingDB.length);
-  
+      
     var nothingselected = false;
     if ((selectedYear.length == 0) && (selectedPaperType.length == 0) && (selectedObjectLangs.length == 0) && (selectedArea.length == 0) && (selectedKeywords.length == 0) && (selectedLang.length == 0)) {nothingselected = true;}
-    // else {nothingselected = false}
     if (nothingselected) {workingDB = db;}
 
 
@@ -458,22 +435,14 @@
           if (k == "tagKeywords") {myobjmytag = myobj.tagKeywords;}
 
           if (MydictExcluded.get(k).length !=0) {
-            // console.log("length != 0");
             for (elem of MydictExcluded.get(k)) {
-              // console.log(elem);
-              // console.log(myobjmytag);
               if (myobjmytag.includes(elem)) {
-                // console.log("this entry must be excluded")
                 return false;
               }
             }
             return true;
-              // else {return true};
             }
-          else {
-            // console.log("no excluded items");
-            return true;
-          }
+          else {return true;}
 }
 
 </script>
