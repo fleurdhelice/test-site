@@ -361,24 +361,48 @@
 
 
     var filteredDB = [];
-    for (entry of db) {
+    var workingDB = db;
+
+    for (k of MydictSelected.keys()){
+      for (entry of workingDB) {
         const myjson = JSON.stringify(entry);
         const myobj = JSON.parse(myjson);
-        // console.log(myobj);
-        // console.log(myobj.tagYear);
-
-        var answer = true;
-        for (k of MydictSelected.keys()){
-            answer = answer && mycheck(k, MydictSelected, myobj);
-             }
-        if (answer) {filteredDB.push(entry)}
+        var answer = mycheck(k, MydictSelected, myobj);
+        if (answer) {filteredDB.push(entry)};
+      }
+      console.log(k, "bearbeitet; filtered DB has", filteredDB.length);
+      workingDB = filteredDB;
+      filteredDB = [];
+      console.log("new workingDB has", workingDB.length);
     }
 
+
+
+
+    // for (entry of db) {
+    //     const myjson = JSON.stringify(entry);
+    //     const myobj = JSON.parse(myjson);
+    //     // console.log(myobj);
+    //     // console.log(myobj.tagYear);
+
+    //     var answer = true;
+    //     for (k of MydictSelected.keys()){
+    //         answer = answer && mycheck(k, MydictSelected, myobj);
+    //          }
+    //     if (answer) {filteredDB.push(entry)}
+    // }
+
     var finalDB = [];
-    var workingDB = [];
-    if (filteredDB.length != 0) {workingDB = filteredDB;}
-    else {workingDB = db};
-    // console.log("Length of working DB", workingDB.length);
+    
+    // if (workingDB.length != 0) {workingDB = filteredDB;}
+    // else {workingDB = db};
+    // // console.log("Length of working DB", workingDB.length);
+  
+    var nothingselected = false;
+    if ((selectedYear.length == 0) && (selectedPaperType.length == 0) && (selectedObjectLangs.length == 0) && (selectedArea.length == 0) && (selectedKeywords.length == 0) && (selectedLang.length == 0)) {nothingselected = true;}
+    // else {nothingselected = false}
+    if (nothingselected) {workingDB = db;}
+
 
     for (filteredentry of workingDB) {
         const myjson2 = JSON.stringify(filteredentry);
@@ -450,12 +474,7 @@
             // console.log("no excluded items");
             return true;
           }
-
-
-
 }
-
-  
 
 </script>
 
