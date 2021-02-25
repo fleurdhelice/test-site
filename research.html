@@ -404,19 +404,16 @@
   table += '<table><col width="50%"><col width="40%"><col width="5%"><col width="5%">'
 
   for (item of finalDB){
-    const myjson = JSON.stringify(entry);
+    const myjson = JSON.stringify(item);
     const myobj = JSON.parse(myjson);
     
     var row = "<tr>";
     row += "<td>" + myobj.title + "</td>"; //title
 
-
-    row += generateTagsRow(myobj);
-    
+    row += generateTagsRow(myobj);  
 
     let bibLink = myobj.bibtex+".html";
-    row += `<td><a href=${bibLink} title="Link to BibTex info" target="blank"><img src="images/bibtex.png" alt="Citation icon" width="100%"></a></td>`
-
+    row += `<td><a href=${bibLink} title="Link to BibTex info" target="blank"><img src="/test-site/images/bibtex.png" alt="Citation icon" width="100%"></a></td>`
     row += generateDownloadRow(myobj);
         
   table += row;
@@ -459,13 +456,13 @@ function generateTagsRow(myobj) {
 
 function generateDownloadRow(myobj){
   if (myobj.download == ''){
-      return '<td><img src="images/lockgreen.png" title="File currently unavailable" alt="Download impossible" width="100%"></td>'
+      return '<td><img src="/test-site/images/lockgreen.png" title="File currently unavailable" alt="Download impossible" width="100%"></td>'
   } else if (myobj.download.includes("papers/")) {
       var downloadLink = myobj.download+".html";
-      return `<td><a href=${downloadLink} title="Download the paper" target="blank" download><img src="images/download.png" alt="Download icon" width="100%"></a></td>`
+      return `<td><a href=${downloadLink} title="Download the paper" target="blank" download><img src="/test-site/images/download.png" alt="Download icon" width="100%"></a></td>`
   } else {
       var downloadLink = myobj.download
-      return `<td><a href=${downloadLink} title="Open the paper on an external resource" target="blank" download><img src="images/link.png" alt="Link icon" width="100%"></a></td>`
+      return `<td><a href=${downloadLink} title="Open the paper on an external resource" target="blank" download><img src="/test-site/images/link.png" alt="Link icon" width="100%"></a></td>`
   }
 }
 
