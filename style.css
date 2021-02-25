@@ -224,7 +224,7 @@ body ul{
   display: none;  
   position: fixed; /* Fixed/sticky position */
   bottom: 25px; 
-  left: 19%;
+  left: 10%;
   /*z-index: 99;  Make sure it does not overlap */
   cursor: pointer; 
   height: 46px;
