@@ -1,0 +1,26 @@
+#689E92 soft green (used)
+#F5C1A1 peach (contrast)
+#F5D6A1 yellow (triad 1)
+#E898A5 pink (triad 2)
+#6F84A1 blue (tetrade)
+#9DD18A bright green (analogy)
+#7E77AA violet
+
+Even softer
+#9ACFC3 green
+#FAD2BA peach-beige
+#FAE2BA yellow
+#F3B5BF pink
+#9FB4D0 blue
+#BDE8AD bright green
+#ACA5D5 violet
+
+
+Dark colors (for fonts)
+#226757 green
+#9F5D34 dark beige
+#9F7734 yellow
+#963241 pink
+#244169 blue
+#45882D	bright green
+#31276E violet

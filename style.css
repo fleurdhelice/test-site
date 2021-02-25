@@ -527,6 +527,16 @@ body ul{
 
 /*===================== Coloring buttons ========================*/
 
+.nohover:hover{
+	border: 0px #f2f2f2 !important;
+	cursor: default !important;
+}
+
+.nohover:focus{
+	border: 0px #f2f2f2 !important;
+	cursor: default !important;
+}
+
 .beige{
   background: #FAD2BA;
   color: #9F5D34;

@@ -425,27 +425,27 @@ function generateTagsRow(myobj) {
   tagsrow += '<td><div class="taggroup" style="width:85%">';
   for (elem of myobj.tagYear) {
     var year = elem;
-    tagsrow += `<div class="tagbutton yellow" style="margin-right:5px"><span class="skew-fix">${year}</span></div>`;
+    tagsrow += `<div class="tagbutton yellow nohover" style="margin-right:5px;border:0px"><span class="skew-fix">${year}</span></div>`;
   }
     for (elem of myobj.tagPaperType) {
     var papertype = elem;
-    tagsrow += `<div class="tagbutton violet" style="margin-right:5px"><span class="skew-fix">${papertype}</span></div>`;
+    tagsrow += `<div class="tagbutton violet nohover" style="margin-right:5px;border:0px"><span class="skew-fix">${papertype}</span></div>`;
   }
     for (elem of myobj.tagObjectLangs) {
     var olang = elem;
-    tagsrow += `<div class="tagbutton beige" style="margin-right:5px"><span class="skew-fix">${olang}</span></div>`;
+    tagsrow += `<div class="tagbutton beige nohover" style="margin-right:5px;border:0px"><span class="skew-fix">${olang}</span></div>`;
   }
     for (elem of myobj.tagArea) {
     var area = elem;
-    tagsrow += `<div class="tagbutton blue" style="margin-right:5px"><span class="skew-fix">${area}</span></div>`;
+    tagsrow += `<div class="tagbutton blue nohover" style="margin-right:5px;border:0px"><span class="skew-fix">${area}</span></div>`;
   }
     for (elem of myobj.tagKeywords) {
     var kw = elem;
-    tagsrow += `<div class="tagbutton green" style="margin-right:5px"><span class="skew-fix">${kw}</span></div>`;
+    tagsrow += `<div class="tagbutton green nohover" style="margin-right:5px;border:0px"><span class="skew-fix">${kw}</span></div>`;
   }
     for (elem of myobj.tagLang) {
     var plang = elem;
-    tagsrow += `<div class="tagbutton pink" style="margin-right:5px"><span class="skew-fix">${plang}</span></div>`;
+    tagsrow += `<div class="tagbutton pink nohover" style="margin-right:5px;border:0px"><span class="skew-fix">${plang}</span></div>`;
   }
   tagsrow += `</div></td>`;
   return tagsrow;
