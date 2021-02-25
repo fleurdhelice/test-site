@@ -422,7 +422,7 @@ body ul{
 }
 
 .taggroup.short{
-  width: 16%;
+  width: 10%;
 }
 
 .taggroup.shortened{
@@ -430,7 +430,7 @@ body ul{
 }
 
 .taggroup.long{
-  width: 46%; 
+  width: 37%; 
 }
 
 .taggroup h3{

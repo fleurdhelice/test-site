@@ -6,7 +6,7 @@ var db = [
 	"tagLang" : ["rus"],
 	"tagObjectLangs" : ["rus"],
 	"tagArea" : ["semantics"],
-	"tagKeywords" : ["stereotype"],
+	"tagKeywords" : ["stereotype"], //bad
 	"bibtex" : "Generalova2013TalkStereotypical",
 	"download" : "" 
 },{
@@ -126,7 +126,7 @@ var db = [
 	"tagLang" : ["eng"],
 	"tagObjectLangs" : ["hur"],
 	"tagArea" : ["syntax", "RRG"], 
-	"tagKeywords" : ["ditransitive", "valence"], 
+	"tagKeywords" : ["ditransitives", "valence"], 
 	"bibtex" : "Generalova2019TalkHalkHeadDep",	
 	"download" : "https://www.academia.edu/40146436/An_RRG_analysis_of_Halkomelem_ditransitive_constructions_Integrating_head_marking_and_dependent_marking_properties"
 
@@ -287,7 +287,7 @@ var db = [
 	"tagYear" : ["to appear"],
 	"tagPaperType" : ["article"],
 	"tagLang" : ["eng"],
-	"tagObjectLangs" : ["bak", "xal", "kjh", "tuv"], 
+	"tagObjectLangs" : ["bak", "xal", "kjh", "tyv"], 
 	"tagArea" : ["syntax", "semantics"], 
 	"tagKeywords" : ["argument linking", "valence", "causatives"],
 	"bibtex" : "GeneralovaBWPL",	
