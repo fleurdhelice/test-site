@@ -458,7 +458,7 @@ function generateDownloadRow(myobj){
   if (myobj.download == ''){
       return '<td><img src="/test-site/images/lockgreen.png" title="File currently unavailable" alt="Download impossible" width="100%"></td>'
   } else if (myobj.download.includes("papers/")) {
-      var downloadLink = myobj.download+".html";
+      var downloadLink = myobj.download;
       return `<td><a href=${downloadLink} title="Download the paper" target="blank" download><img src="/test-site/images/download.png" alt="Download icon" width="100%"></a></td>`
   } else {
       var downloadLink = myobj.download
