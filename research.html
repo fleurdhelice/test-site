@@ -227,6 +227,9 @@
         </div>
       </div>
     </div>
+    <div style="padding:30px">
+        <div class="mypagecontent" id="inserthere" style=""></div>
+    </div>
   </div>
 
 
@@ -394,13 +397,77 @@
 
 
   console.log("DB filtered twice", finalDB.length)
-  //for (e of filteredDB) {console.log(e);}
+  //for (e of finalDB) {console.log(e);}
+  //теперь рисование
+  var table = ""
+  
+  table += '<table><col width="50%"><col width="40%"><col width="5%"><col width="5%">'
+
+  for (item of finalDB){
+    const myjson = JSON.stringify(entry);
+    const myobj = JSON.parse(myjson);
+    
+    var row = "<tr>";
+    row += "<td>" + myobj.title + "</td>"; //title
 
 
+    row += generateTagsRow(myobj);
+    
 
-    //теперь рисование
-      
+    let bibLink = myobj.bibtex+".html";
+    row += `<td><a href=${bibLink} title="Link to BibTex info" target="blank"><img src="images/bibtex.png" alt="Citation icon" width="100%"></a></td>`
+
+    row += generateDownloadRow(myobj);
+        
+  table += row;
   }
+
+const pageContent = document.getElementById('inserthere');
+pageContent.innerHTML = table;
+}
+
+function generateTagsRow(myobj) {
+  var tagsrow = '';
+  tagsrow += '<td><div class="taggroup" style="width:90%">';
+  for (elem of myobj.tagYear) {
+    var year = elem;
+    tagsrow += `<div class="tagbutton yellow" style="margin-right:5px"><span class="skew-fix">${year}</span></div>`;
+  }
+    for (elem of myobj.tagPaperType) {
+    var papertype = elem;
+    tagsrow += `<div class="tagbutton violet" style="margin-right:5px"><span class="skew-fix">${papertype}</span></div>`;
+  }
+    for (elem of myobj.tagObjectLangs) {
+    var olang = elem;
+    tagsrow += `<div class="tagbutton beige" style="margin-right:5px"><span class="skew-fix">${olang}</span></div>`;
+  }
+    for (elem of myobj.tagArea) {
+    var area = elem;
+    tagsrow += `<div class="tagbutton blue" style="margin-right:5px"><span class="skew-fix">${area}</span></div>`;
+  }
+    for (elem of myobj.tagKeywords) {
+    var kw = elem;
+    tagsrow += `<div class="tagbutton green" style="margin-right:5px"><span class="skew-fix">${kw}</span></div>`;
+  }
+    for (elem of myobj.tagLang) {
+    var plang = elem;
+    tagsrow += `<div class="tagbutton pink" style="margin-right:5px"><span class="skew-fix">${plang}</span></div>`;
+  }
+  tagsrow += `</div></td>`;
+  return tagsrow;
+}
+
+function generateDownloadRow(myobj){
+  if (myobj.download == ''){
+      return '<td><img src="images/lockgreen.png" title="File currently unavailable" alt="Download impossible" width="100%"></td>'
+  } else if (myobj.download.includes("papers/")) {
+      var downloadLink = myobj.download+".html";
+      return `<td><a href=${downloadLink} title="Download the paper" target="blank" download><img src="images/download.png" alt="Download icon" width="100%"></a></td>`
+  } else {
+      var downloadLink = myobj.download
+      return `<td><a href=${downloadLink} title="Open the paper on an external resource" target="blank" download><img src="images/link.png" alt="Link icon" width="100%"></a></td>`
+  }
+}
 
 
   function mycheck(k, MydictSelected, myobj){

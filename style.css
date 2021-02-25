@@ -412,7 +412,7 @@ body ul{
   margin-right: 0.5%;
   margin-top: 0;
   margin-bottom: 1%;
-  width: 29%;
+  width: 28%;
   text-align: left;
   background: #f2f2f2;
   padding-top: 5px;
@@ -422,15 +422,15 @@ body ul{
 }
 
 .taggroup.short{
-  width: 17%;
+  width: 16%;
 }
 
 .taggroup.shortened{
-  width: 23%;
+  width: 22%;
 }
 
 .taggroup.long{
-  width: 47%; 
+  width: 46%; 
 }
 
 .taggroup h3{
@@ -741,3 +741,61 @@ body ul{
   cursor: pointer;
 }
 
+/*===================== Drawing research outputs ========================*/
+.row{
+  /*background: yellow;*/
+  text-align: center;
+  overflow: hidden;
+  float: left;
+}
+
+.rowPart1{
+  float:left;
+  /*background: blue;*/
+  width: 50%;
+  font-size: 20px;
+  text-align: left;
+  padding: 5px;
+}
+.rowPartTags{
+  float:left;
+  /*background: green;*/
+  width: 37%;
+  text-align: left;
+}
+
+.rowPartImg{
+  float:left;
+  /*background: red;*/
+  width: 5%;
+  padding: 5px;
+  padding-top: 24px;
+}
+
+.rowPartImg img:hover {
+  background: #035845;
+}
+
+.separator{
+  /*float: right;*/
+  width: inherit;
+  height: 2px;
+  background: #689E92;
+}
+
+/*===================== Table settings ========================*/
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  /*border: 3px solid purple;*/
+}
+
+
+th, td {
+  padding: 5px;
+  text-align: left;
+  vertical-align: middle;
+  border-bottom: 2px solid #689E92;
+  border-top: 2px solid #689E92;
+}
