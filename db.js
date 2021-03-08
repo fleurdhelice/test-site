@@ -22,14 +22,14 @@ var db = [
 	"download" : "https://dspace.spbu.ru/bitstream/11701/3518/1/Valera_Diplom_final.pdf"
 }, {
 	"title" : "V. Generalova, <strong>Towards an RRG analysis of constructions with a morphological causative in some Altaic languages</strong>, In: A. Tigău (ed.) The Syntax and Semantics of Internal Arguments. Special issue of Bucharest Working Papers in Linguistics, Vol. 22.2",
-	"tagYear" : ["to appear"],
+	"tagYear" : ["2020"],
 	"tagPaperType" : ["article"],
 	"tagLang" : ["eng"],
 	"tagObjectLangs" : ["bak", "xal", "kjh", "tyv"], 
 	"tagArea" : ["syntax", "semantics", "RRG"], 
 	"tagKeywords" : ["argument linking", "valence", "causatives"],
-	"bibtex" : "GeneralovaBWPL",	
-	"download" : "" 
+	"bibtex" : "Generalova2020BWPL",	
+	"download" : "/test-site/papers/Generalova2020BWPL.pdf" 
 
 }, {
 	"title" : 'V. Generalova and <a href="https://user.phil.hhu.de/petitjean/" target="blank">S. Petitjean</a>, <strong>A prototype of a metagrammar describing three-argument constructions with a morphological causative</strong>, Typology of Morphosyntactic Parameters, Vol. 3.2, pp. 29-51, 2020.', 
