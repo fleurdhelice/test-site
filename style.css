@@ -224,8 +224,9 @@ body ul{
   display: none;  
   position: fixed; /* Fixed/sticky position */
   bottom: 25px; 
-  left: 10%;
-  /*z-index: 99;  Make sure it does not overlap */
+  left: 50px;
+  /*left: 10%;*/
+  z-index: 99; 
   cursor: pointer; 
   height: 46px;
   width: 46px;
@@ -296,16 +297,53 @@ body ul{
   background: #035845;
 }
 
+/*===================== LLLpage ========================*/
+
+.lllimageleft{
+  overflow:hidden;
+  float: left;
+  width: 30%;
+  text-align: justify;
+  padding: 10px;
+  background: yellow; /*put image on background*/
+}
+
+.lllimageright{
+  overflow:hidden;
+  float: left;
+  width: 30%;
+  text-align: justify;
+  padding: 10px;
+  background: orange; /*put image on background*/
+}
+
+.llltextleft{
+  overflow:hidden;
+  float: left;
+  width: 60%;
+  text-align: justify;
+  padding: 10px;
+  background: blue; /*put image on background*/
+}
+
+.llltextright{
+  overflow:hidden;
+  float: left;
+  width: 60%;
+  text-align: justify;
+  padding: 10px;
+  background: green; /*put image on background*/
+}
 
 
-
+/*==============================================================*/
 /*======================== About page ==========================*/
 
 .layer1 {
   overflow:hidden;
   float: left;
   width: 60%;
-  text-align: left;
+  text-align: justify;
   padding: 10px;
   /*background: yellow;*/
 }
@@ -315,6 +353,7 @@ body ul{
   float: right;
   width: 33%;
   text-align: center;
+  /*background: violet;*/
 }
 
 .layer2:hover {
@@ -342,8 +381,6 @@ body ul{
 .hiddentext {
   display: none;
 }
-
-
 
 .diamondlist{
   padding: 0;
@@ -809,3 +846,4 @@ th, td {
   border-bottom: 2px solid #689E92;
   border-top: 2px solid #689E92;
 }
+
