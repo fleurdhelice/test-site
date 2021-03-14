@@ -32,8 +32,12 @@
   <div class="mycontent" align="center">
     <div class="mypagecontent">
       <div class="howtoblock" align="center">
-        <h3>How to use this page?</h3>
-        <p>This page lists all my research outputs. You can browse through the whole list or use filters in the block below. Unless no tag is selected, everything is shown. Click on any number of tags in each group to see all entries that have them. If you select several tags <i>within</i> a group, papers having <i>either</i> of them will be shown. If you select tags from <i>different</i> groups, you will see papers having <i>at least one</i> tag from <i>each</i> group. If you want to exclude some papers (e. g., you don't want to read in Russian), select the respective tag ('rus') and click the 'exclude' button (with a minus sign). You will see all papers that do not have the excluded tag (i.e., in English).</p>
+        <div class="tagbutton teal" id="HowToButton">
+          <span class="skew-fix">How to use this page?</span>
+        </div>
+        <div class="hiddentext" id="HowToText">
+          <p>This page lists all my research outputs. You can browse through the whole list or use filters in the block below. Unless no tag is selected, everything is shown. Click on any number of tags in each group to see all entries that have them. If you select several tags <strong>within</strong> a group, papers having <strong>either</strong> of them will be shown. If you select tags from <strong>different</strong> groups, you will see papers having <strong>at least one</strong> tag from <strong>each</strong> group. If you want to exclude some papers (e. g., you don't want to read in Russian), select the respective tag ('rus') and click the 'exclude' button (with a minus sign). You will see all papers that do not have the excluded tag (i.e., in English).</p>
+        </div>
       </div>
       <div class="tagblock" align="center">
         <div class="taggroup">
@@ -246,8 +250,15 @@
 
 <script type="text/javascript" src="db.js"></script>
 
-<script>
 
+<script>
+  document.getElementById('HowToButton').onclick = function() {
+  document.getElementById('HowToText').classList.toggle('hiddentext');
+  document.getElementById('HowToButton').classList.toggle('selected');
+  }
+</script>
+
+<script>
   var mybutton = document.getElementById("myTopBtn");
   window.onscroll = function() {scrollFunction()};
   function scrollFunction() {
@@ -305,7 +316,7 @@
               {elem.classList.remove('excluded');
               elem.classList.add('selected');}}}
     mysync();
-}
+  }
 
   function mysync(){
     let MydictSelected = new Map();
@@ -395,36 +406,30 @@
             answer = answer && mycheckexcluded(k, MydictExcluded, myobj2);
              }
         if (answer) {finalDB.push(filteredentry)}
-
-    }
-
-
-  console.log("DB filtered twice", finalDB.length)
-  //for (e of finalDB) {console.log(e);}
-  //теперь рисование
-  var table = ""
+        }
+    console.log("DB filtered twice", finalDB.length)
+   //теперь рисование
+    var table = ""
   
-  table += '<table><col width="50%"><col width="40%"><col width="5%"><col width="5%">'
+    table += '<table><col width="50%"><col width="40%"><col width="5%"><col width="5%">'
 
-  for (item of finalDB){
-    const myjson = JSON.stringify(item);
-    const myobj = JSON.parse(myjson);
-    
-    var row = "<tr>";
-    row += "<td>" + myobj.title + "</td>"; //title
+    for (item of finalDB){
+      const myjson = JSON.stringify(item);
+      const myobj = JSON.parse(myjson);
+      
+      var row = "<tr>";
+      row += "<td>" + myobj.title + "</td>"; //title
 
-    row += generateTagsRow(myobj);  
+      row += generateTagsRow(myobj);  
 
-    let bibLink = myobj.bibtex+".html";
-    row += `<td><a href=${bibLink} title="Link to BibTex info" target="blank"><img src="/test-site/images/bibtex.png" alt="Cite icon" width="100%" onmouseover="this.style.backgroundColor='#035845' onmouseout="this.style.backgroundColor = ''></a></td>`
-    row += generateDownloadRow(myobj);
-        
-  table += row;
+      let bibLink = myobj.bibtex+".html";
+      row += `<td><a href=${bibLink} title="Link to BibTex info" target="blank"><img src="/test-site/images/bibtex.png" alt="Cite icon" width="100%" onmouseover="this.style.backgroundColor='#035845' onmouseout="this.style.backgroundColor = ''></a></td>`
+      row += generateDownloadRow(myobj);      
+      table += row;
+      } 
+    const pageContent = document.getElementById('inserthere');
+    pageContent.innerHTML = table;
   }
-
-const pageContent = document.getElementById('inserthere');
-pageContent.innerHTML = table;
-}
 
 function generateTagsRow(myobj) {
   var tagsrow = '';
@@ -470,7 +475,7 @@ function generateDownloadRow(myobj){
 }
 
 
-  function mycheck(k, MydictSelected, myobj){
+function mycheck(k, MydictSelected, myobj){
           var myobjmytag
           if (k == "tagYear") {myobjmytag = myobj.tagYear;}
           if (k == "tagPaperType") {myobjmytag = myobj.tagPaperType;}
@@ -488,10 +493,9 @@ function generateDownloadRow(myobj){
             return false;
           } else {
             return true;
-          }
-}
+          }}
 
-  function mycheckexcluded(k, MydictExcluded, myobj){
+function mycheckexcluded(k, MydictExcluded, myobj){
           
           var myobjmytag
           if (k == "tagYear") {myobjmytag = myobj.tagYear;}
@@ -510,10 +514,11 @@ function generateDownloadRow(myobj){
             return true;
             }
           else {return true;}
-}
+ }
+
+mysync();
 
 </script>
-
 
 
 </body>

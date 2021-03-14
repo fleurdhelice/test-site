@@ -788,6 +788,46 @@ body ul{
   cursor: pointer;
 }
 
+.teal{
+  background: #9bdecf;
+  color: #003026;
+  border: 1px solid  #9bdecf;
+  margin-left: 20px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 18px
+}
+
+.teal:hover{
+  border: 1px solid #003026;
+  cursor: pointer;
+}
+
+.teal:focus{
+  border: 1px solid #003026;
+  cursor: pointer;
+}
+
+.teal.selected{
+  background: #003026;
+  color: #9bdecf;
+  border: 1px solid  #003026;
+}
+
+.teal.selected:hover{
+/*  background: #45882D;
+  color: #BDE8AD;*/
+  border: 1px solid  #9bdecf;
+  cursor: pointer;
+}
+
+.teal.selected:focus{
+/*  background: #45882D;
+  color: #BDE8AD;*/
+  border: 1px solid  #9bdecf;
+  cursor: pointer;
+}
+
 /*===================== Drawing research outputs ========================*/
 .row{
   /*background: yellow;*/
@@ -847,3 +887,31 @@ th, td {
   border-top: 2px solid #689E92;
 }
 
+/*===================== Dropdown ========================*/
+
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  z-index: 99;
+}
