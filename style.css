@@ -25,6 +25,17 @@
   src: url("fonts/JosefinSans-LightItalic.woff");
 }
 
+@font-face {
+  font-family: Electronica;
+  /*src: url("/test-site/fonts/Electronica-Regular.woff");*/
+  src: url("fonts/Electronica-Regular.woff");
+}
+
+@font-face {
+  font-family: ElectronicaBold;
+  /*src: url("/test-site/fonts/Electronica-Bold.woff");*/
+  src: url("fonts/Electronica-Bold.woff");
+}
 /*===============================================================*/
 body {
   min-width: 100px;
