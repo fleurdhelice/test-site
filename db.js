@@ -270,7 +270,7 @@ var db = [
 	"tagLang" : ["rus"],
 	"tagObjectLangs" : ["rus"],
 	"tagArea" : ["semantics"],
-	"tagKeywords" : [""], 
+	"tagKeywords" : ["stereotype"], 
 	"bibtex" : "Generalova2013TalkStereotypical",
 	"download" : "" 
 }, {
