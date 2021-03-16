@@ -927,3 +927,11 @@ th, td {
   overflow: auto;
   z-index: 99;
 }
+
+/*===================== Bibentry ========================*/
+
+.bibentry {
+  font-family: Electronica;
+  font-size: 18px;
+  color: blue
+}
