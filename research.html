@@ -423,7 +423,7 @@
 
       row += generateTagsRow(myobj);  
 
-      let bibLink = myobj.bibtex+".html";
+      let bibLink = "/test-site/bib/"myobj.bibtex+".html";
       row += `<td><a href=${bibLink} title="BibTex" target="blank"><img src="/test-site/images/bibtex.png" alt="Cite icon" width="100%" onmouseover="this.style.backgroundColor='#035845' onmouseout="this.style.backgroundColor = ''></a></td>`
       row += generateDownloadRow(myobj);      
       table += row;
