@@ -264,13 +264,6 @@
 
 
 <script>
-  document.getElementById('HowToButton').onclick = function() {
-  document.getElementById('HowToText').classList.toggle('hiddentext');
-  document.getElementById('HowToButton').classList.toggle('selected');
-  }
-</script>
-
-<script>
   var mybutton = document.getElementById("myTopBtn");
   window.onscroll = function() {scrollFunction()};
   function scrollFunction() {
@@ -283,6 +276,13 @@
   function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
+  }
+</script>
+
+<script>
+  document.getElementById('HowToButton').onclick = function() {
+  document.getElementById('HowToText').classList.toggle('hiddentext');
+  document.getElementById('HowToButton').classList.toggle('selected');
   }
 </script>
 

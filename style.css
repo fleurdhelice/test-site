@@ -935,3 +935,45 @@ th, td {
   font-size: 18px;
   color: blue
 }
+
+/*===================== More page ========================*/
+
+
+.moreitem {
+  float:left;
+  margin: 1%;
+  width:27%;
+  border: 12px double #FF7400 ;
+  height: 170px;
+  text-align: center;
+  font-size: 28px;
+  font-family: JosefinBold;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: #FF7400;
+  background: rgba(247, 171, 125, 0.05);
+  }
+
+
+.moreitem:hover {
+  /*border:10px solid #035845;*/
+  background: #035845;
+  cursor: pointer;
+}
+
+.moreitem.selected{
+  float:left;
+  margin: 1%;
+  width:27%;
+  border: 12px double #035845;
+  height: 170px;
+  font-size: 22px;
+  font-family: Josefin;
+  padding: 10px;
+  /*color: #035845;*/
+  color: #003026;
+  /*background: rgba(104, 158, 146, 0.15);*/
+  background: #f2f2f2
+}
