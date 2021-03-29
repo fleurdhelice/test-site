@@ -57,8 +57,8 @@ var db = [
 	"tagYear" : ["2020"],
 	"tagPaperType" : ["in proceedings"],
 	"tagLang" : ["eng"],
-	"tagObjectLangs" : ["niv", "bak", "hur"], 
-	"tagArea" : ["syntax", "typology"], 
+	"tagObjectLangs" : ["bak", "niv", "hur"], 
+	"tagArea" : ["syntax", "semantics", "typology", "RRG"], 
 	"tagKeywords" : ["valence", "causatives", "metagrammar", "argument linking"], 
 	"bibtex" : "Generalova2020CausativesLinking",	
 	"download" : "https://www.academia.edu/43943952/Towards_a_cross_linguistic_description_of_morphological_causatives_issues_in_syntax_semantics_linking", 
@@ -118,10 +118,10 @@ var db = [
 	"tagPaperType" : ["talk"],
 	"tagLang" : ["eng"],
 	"tagObjectLangs" : ["bak", "niv", "hur"],
-	"tagArea" : ["syntax", "semantics", "RRG"], 
+	"tagArea" : ["syntax", "semantics", "typology", "RRG"], 
 	"tagKeywords" : ["valence", "causatives", "metagrammar", "argument linking"], 
 	"bibtex" : "Generalova2020TalkCausSySeLinking",	
-	"download" : "" 	
+	"download" : "/test-site/papers/Generalova2020TalkCausSySeLinking.pdf" 	
 }, {
 	"title" : "V. Generalova, <strong>Yet another attempt at a syntax-driven typology of morphological causative constructions</strong>, Talk at the 17th Conference on Typology and Grammar for Young Scholars, St Petersburg, Russia (online), Nov. 2020.",
 	"tagYear" : ["2020"],
