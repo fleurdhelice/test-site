@@ -21,7 +21,7 @@ var db = [
 	"bibtex" : "Generalova2012BAThesis",	
 	"download" : "https://dspace.spbu.ru/bitstream/11701/3518/1/Valera_Diplom_final.pdf"
 }, {
-	"title" : "V. Generalova, <strong>Towards an RRG analysis of constructions with a morphological causative in some Altaic languages</strong>, In: A. Tigău (ed.) The Syntax and Semantics of Internal Arguments. Special issue of Bucharest Working Papers in Linguistics, Vol. 22.2",
+	"title" : "V. Generalova, <strong>Towards an RRG analysis of constructions with a morphological causative in some Altaic languages</strong>, In: A. Tigău (ed.) The Syntax and Semantics of Internal Arguments. Special issue of Bucharest Working Papers in Linguistics, Vol. 22.2, pp. 97-120, 2020.",
 	"tagYear" : ["2020"],
 	"tagPaperType" : ["article"],
 	"tagLang" : ["eng"],
