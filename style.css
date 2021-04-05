@@ -13,17 +13,17 @@
   src: url("fonts/JosefinSans-Light.woff");
 }
 
-/*@font-face {
-  font-family: JosefinBold;
-  src: url("/test-site/fonts/JosefinSans-SemiBold.woff");
-  src: url("fonts/JosefinSans-SemiBold.woff");
-}*/
-
 @font-face {
   font-family: JosefinBold;
   /*src: url("/test-site/fonts/JosefinSans-SemiBold.woff");*/
-  src: url("fonts/JosefinSans-Bold.woff");
+  src: url("fonts/JosefinSans-SemiBold.woff");
 }
+
+/*@font-face {
+  font-family: JosefinBold;
+  src: url("/test-site/fonts/JosefinSans-SemiBold.woff");
+  src: url("fonts/JosefinSans-Bold.woff");
+}*/
 
 @font-face {
   font-family: JosefinItalic;
