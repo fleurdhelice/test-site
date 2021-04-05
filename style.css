@@ -471,15 +471,11 @@ body ul{
 }
 
 .taggroup.short{
-  width: 10%;
-}
-
-.taggroup.shortened{
-  width: 22%;
+  width: 12%;
 }
 
 .taggroup.long{
-  width: 37%; 
+  width: 36%; 
 }
 
 .taggroup h3{
@@ -494,8 +490,8 @@ body ul{
   display:inline-block;
   padding-right: 4px;
   padding-left: 4px;
-  padding-top: 2px;
-  padding-bottom: 2px;
+  /*padding-top: 2px;*/
+  /*padding-bottom: 2px;*/
   /*margin-left: 3px;*/
   margin-right: -1px;
   font-size:16px;
@@ -508,6 +504,8 @@ body ul{
 .skew-fix{
   display:inline-block;
   transform: skew(25deg);
+  padding-left: 4px;
+  padding-right: 3px;
 }
 
 .excluded{
@@ -538,7 +536,7 @@ body ul{
   color: white;
   text-align: center;
   padding: 0;
-  margin-top: 5px;
+  margin: 5px;
   background: black;
   display:inline-block;
   float: right;
