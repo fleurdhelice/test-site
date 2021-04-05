@@ -298,8 +298,8 @@ body ul{
 
 .contactitem {
   float:left;
-  margin: 1%;
-  width: 22%;
+  margin: 2%;
+  width: 20.25%;
 /*  width:12.2%;  for 7 
   width: 14.5%; for 6 */
   }
@@ -307,6 +307,11 @@ body ul{
 .contactitem img:hover {
   /*border:10px solid #035845;*/
   background: #035845;
+}
+
+.contactpage p{
+  margin: 10px;
+
 }
 
 /*===================== LLLpage ========================*/
