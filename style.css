@@ -51,12 +51,12 @@ body {
 }
 
 body h1{
-  margin-top: 10px;
+  margin-top: 0px;
   margin-bottom: 0px;
   font-family: JosefinBold;
   font-size: 36px;
   color: #FF7400;
-  line-height: 1.1;
+  line-height: 1;
 }
 
 body h2{
@@ -361,7 +361,9 @@ body ul{
   float: left;
   width: 60%;
   text-align: justify;
-  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0px;
   /*background: yellow;*/
 }
 
