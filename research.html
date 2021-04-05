@@ -35,20 +35,23 @@
         <div class="tagbutton teal" id="HowToButton" title="Click to see or hide the instructions">
           <span class="skew-fix">How to use this page?</span>
         </div>
-        <div class="hiddentext" id="HowToText">
+        <!-- <div class="hiddentext" id="HowToText"> -->
+          <div id="HowToText">
           <p>This page lists all my research outputs. You can browse through the whole list or use filters in the block below. <br>
             Click on any number of tags in each group to see all entries that have them. <br>
             Unless no tag is selected, everything is shown.<br>
+             <br>
             If you select several tags <strong>within</strong> a group, papers having <strong>either</strong> of them will be shown. <br>
-            If you select tags from <strong>different</strong> groups, you will see papers having <strong>at least one</strong> tag from <strong>each</strong> group. <br>
-            If you want to exclude some papers (e. g., you don't want to read in Russian), select the respective tag ('rus') and click the 'exclude' button (with a minus sign). You will see all papers that do not have the excluded tag (i.e., in English). <br>
+            If you select tags from <strong>different</strong> groups, you will see papers having <strong>at least one</strong> tag from <strong>each</strong> group. <br> <br>
+            If you want to exclude some papers (e. g., you don't want to read in Russian), select the respective tag ('rus') and click the 'exclude' button (the minus sign). You will see all papers that do not have the excluded tag (i.e., in English). <br>
+            <br>
             When some tags are selected, all other tags within this group are considered excluded (and vice versa).
 
           </p>
         </div>
       </div>
       <div class="tagblock" align="center">
-        <div class="taggroup">
+        <div class="taggroup" style="width: 29%">
           <h3>Year</h3>
           <div class="tagbutton yellow" onclick="mytoggle(this)">
             <span class="skew-fix">to appear</span>
@@ -84,7 +87,7 @@
             <span>–</span>
           </div>
         </div>
-        <div class="taggroup">
+        <div class="taggroup" style="width: 29%">
           <h3>Paper type</h3>
           <div class="tagbutton violet" onclick="mytoggle(this)">
             <span class="skew-fix">thesis</span>
@@ -105,7 +108,7 @@
             <span>–</span>
           </div>
         </div>
-        <div class="taggroup">
+        <div class="taggroup" style="width: 30%">
           <h3>Object languages</h3>
           <div class="tagbutton beige" title="Bashkir" onclick="mytoggle(this)">
             <span class="skew-fix">bak</span>
