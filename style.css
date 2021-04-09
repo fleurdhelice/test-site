@@ -326,36 +326,48 @@ body ul{
   overflow:hidden;
   float: left;
   width: 30%;
-  text-align: justify;
-  padding: 10px;
-  background: yellow; /*put image on background*/
+  height: 120px;
+  margin: 16px;
+  text-align: center;
+  /*padding: 10px;*/
+  /*background: yellow; */
 }
 
 .lllimageright{
   overflow:hidden;
   float: left;
   width: 30%;
-  text-align: justify;
-  padding: 10px;
-  background: orange; /*put image on background*/
+  height: 120px;
+  margin: 16px;
+  text-align: center;
+  /*padding: 10px;*/
+  background: orange; 
 }
 
 .llltextleft{
   overflow:hidden;
   float: left;
   width: 60%;
+  height: 120px;
+  margin: 16px;
   text-align: justify;
-  padding: 10px;
-  background: blue; /*put image on background*/
+  vertical-align: center;
+  line-height: 1.1;
+  /*padding: 10px;*/
+  /*background: blue; */
 }
 
 .llltextright{
   overflow:hidden;
   float: left;
   width: 60%;
+  height: 120px;
+  margin: 16px;
   text-align: justify;
-  padding: 10px;
-  background: green; /*put image on background*/
+  vertical-align: center;
+  line-height: 1.1;
+  /*padding: 10px;*/
+  /*background: green; */
 }
 
 
