@@ -262,8 +262,14 @@
 <a href="/test-site/aboutsite.html">learn more about this website</a>
 </footer>
 
-<script type="text/javascript" src="/test-site/db.js"></script>
+<script type="text/javascript" src="db.js"></script>
 
+<script>
+  document.getElementById('HowToButton').onclick = function() {
+  document.getElementById('HowToText').classList.toggle('hiddentext');
+  document.getElementById('HowToButton').classList.toggle('selected');
+  }
+</script>
 
 <script>
   var mybutton = document.getElementById("myTopBtn");
@@ -278,13 +284,6 @@
   function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
-  }
-</script>
-
-<script>
-  document.getElementById('HowToButton').onclick = function() {
-  document.getElementById('HowToText').classList.toggle('hiddentext');
-  document.getElementById('HowToButton').classList.toggle('selected');
   }
 </script>
 
