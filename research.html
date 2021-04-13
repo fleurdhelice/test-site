@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
 
-<link rel="apple-touch-icon" sizes="180x180" href="/test-site/favs/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/test-site/favs/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/test-site/favs/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="favs/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favs/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favs/favicon-16x16.png">
 <link rel="manifest" href="/favs/site.webmanifest">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
@@ -12,17 +12,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Research</title>
-    <!-- <link href="/test-site/style.css" rel="stylesheet"> -->
+    <!-- <link href="style.css" rel="stylesheet"> -->
     <link href="style.css" rel="stylesheet">
   </head>
   <body>
     <ul class="mynav">
-      <li><a href="/test-site/">Home</a></li>
-      <li class="currenttab"><a href="/test-site/research.html">Research</a></li>
-      <li><a href="/test-site/cv.html">CV</a></li>
-      <li><a href="/test-site/lll.html" style="font-family:'ElectronicaBold';">ЛЛЛ</a></li>
-      <li><a href="/test-site/more.html">More</a></li>
-      <li><a href="/test-site/contact.html">Contact</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li class="currenttab"><a href="research.html">Research</a></li>
+      <li><a href="cv.html">CV</a></li>
+      <li><a href="lll.html" style="font-family:'ElectronicaBold';">ЛЛЛ</a></li>
+      <li><a href="more.html">More</a></li>
+      <li><a href="contact.html">Contact</a></li>
     </ul>
 
 
@@ -259,7 +259,7 @@
 
 <footer class="myfooter">
 &#169; Valeria Generalova, 2021 <br>
-<a href="/test-site/aboutsite.html">learn more about this website</a>
+<a href="aboutsite.html">learn more about this website</a>
 </footer>
 
 <script type="text/javascript" src="db.js"></script>
@@ -435,8 +435,8 @@
 
       row += generateTagsRow(myobj);  
 
-      let bibLink = "/test-site/bib/"+myobj.bibtex+".html";
-      row += `<td><a href=${bibLink} title="BibTex" target="blank"><img src="/test-site/images/bibtex.png" alt="Cite icon" width="100%" onmouseover="this.style.backgroundColor='#035845' onmouseout="this.style.backgroundColor = ''></a></td>`
+      let bibLink = "bib/"+myobj.bibtex+".html";
+      row += `<td><a href=${bibLink} title="BibTex" target="blank"><img src="images/bibtex.png" alt="Cite icon" width="100%" onmouseover="this.style.backgroundColor='#035845' onmouseout="this.style.backgroundColor = ''></a></td>`
       row += generateDownloadRow(myobj);      
       table += row;
       } 
@@ -477,13 +477,13 @@ function generateTagsRow(myobj) {
 
 function generateDownloadRow(myobj){
   if (myobj.download == ''){
-      return '<td><img src="/test-site/images/lockgreen.png" title="File currently unavailable" alt="Download impossible" width="100%"></td>'
+      return '<td><img src="images/lockgreen.png" title="File currently unavailable" alt="Download impossible" width="100%"></td>'
   } else if (myobj.download.includes("papers/")) {
       var downloadLink = myobj.download;
-      return `<td><a href=${downloadLink} title="Download the paper" target="blank" download><img src="/test-site/images/download.png" alt="Download icon" width="100%" onmouseover="this.style.backgroundColor='#035845' onmouseout="this.style.backgroundColor = ''"></a></td>`
+      return `<td><a href=${downloadLink} title="Download the paper" target="blank" download><img src="images/download.png" alt="Download icon" width="100%" onmouseover="this.style.backgroundColor='#035845' onmouseout="this.style.backgroundColor = ''"></a></td>`
   } else {
       var downloadLink = myobj.download
-      return `<td><a href=${downloadLink} title="Open the paper on an external resource" target="blank" download><img src="/test-site/images/link.png" alt="Link icon" width="100%" onmouseover="this.style.backgroundColor='#035845' onmouseout="this.style.backgroundColor = ''></a></td>`
+      return `<td><a href=${downloadLink} title="Open the paper on an external resource" target="blank" download><img src="images/link.png" alt="Link icon" width="100%" onmouseover="this.style.backgroundColor='#035845' onmouseout="this.style.backgroundColor = ''></a></td>`
   }
 }
 
