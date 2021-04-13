@@ -256,6 +256,20 @@ body ul{
   /*opacity: 1;*/
 }
 
+/*======================== Popup about smartphones ==========================*/
+
+.reminder {
+  display: block;
+  position: fixed; 
+  z-index: 99; /* Sit on top */
+  width: 404px;
+  padding: 20px;
+  margin-top: 50px;
+  margin-left: 500px;
+  overflow: auto; /* Enable scroll if needed */
+  /*background-color: #c6f7d3; */
+  background-color: rgba(198, 247, 211, 0.4); /* Black w/ opacity */
+}
 
 /*======================== CV page ==========================*/
 .mypagecontent {
