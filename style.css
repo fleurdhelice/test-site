@@ -39,7 +39,7 @@
 
 @font-face {
   font-family: ElectronicaBold;
-  src: url("/test-site/fonts/Electronica-Bold.woff");
+  src: url("fonts/Electronica-Bold.woff");
   /*src: url("fonts/Electronica-Bold.woff");*/
 }
 /*===============================================================*/
