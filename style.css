@@ -149,9 +149,9 @@ body ul{
     border-top-width: 3px;
     padding-top: 2px;
     padding-bottom: 0px;
+    padding-left: 0px;
     list-style:none;
     /*margin:20;*/
-    padding:10;
     text-align:center;
 }
 
