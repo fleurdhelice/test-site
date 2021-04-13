@@ -29,7 +29,7 @@ var db = [
 	"tagArea" : ["syntax", "semantics", "RRG"], 
 	"tagKeywords" : ["argument linking", "valence", "causatives"],
 	"bibtex" : "Generalova2020BWPL",	
-	"download" : "/test-site/papers/Generalova2020BWPL.pdf" 
+	"download" : "papers/Generalova2020BWPL.pdf" 
 
 }, {
 	"title" : 'V. Generalova and <a href="https://user.phil.hhu.de/petitjean/" target="_blank">S. Petitjean</a>, <strong>A prototype of a metagrammar describing three-argument constructions with a morphological causative</strong>, Typology of Morphosyntactic Parameters, Vol. 3.2, pp. 29-51, 2020.', 
@@ -121,7 +121,7 @@ var db = [
 	"tagArea" : ["syntax", "semantics", "typology", "RRG"], 
 	"tagKeywords" : ["valence", "causatives", "metagrammar", "argument linking"], 
 	"bibtex" : "Generalova2020TalkCausSySeLinking",	
-	"download" : "/test-site/papers/Generalova2020TalkCausSySeLinking.pdf" 	
+	"download" : "papers/Generalova2020TalkCausSySeLinking.pdf" 	
 }, {
 	"title" : "V. Generalova, <strong>Yet another attempt at a syntax-driven typology of morphological causative constructions</strong>, Talk at the 17th Conference on Typology and Grammar for Young Scholars, St Petersburg, Russia (online), Nov. 2020.",
 	"tagYear" : ["2020"],
@@ -182,7 +182,7 @@ var db = [
 	"tagArea" : ["human-machine interaction", "machine learning"], 
 	"tagKeywords" : ["chatbots"], 
 	"bibtex" : "Generalova2018TalkFunnyDialogues",	
-	"download" : "/test-site/papers/Generalova2018TalkFunnyDialogues_slides.pdf"	
+	"download" : "papers/Generalova2018TalkFunnyDialogues_slides.pdf"	
 }, {
 	"title" : "V. Generalova, <strong>An RRG approach to case assignment in Altaic causative constructions</strong>, Talk at The International Workshop “The syntax and semantics of internal arguments”, Bucharest, Romania, Oct. 2019.",
 	"tagYear" : ["2018"],
@@ -192,7 +192,7 @@ var db = [
 	"tagArea" : ["syntax", "RRG", "morphology"], 
 	"tagKeywords" : ["valence", "causatives"], 
 	"bibtex" : "Generalova2019TalkAltaicCaus",	
-	"download" : "/test-site/papers/Generalova2019TalkAltaicCaus_slides.pdf"
+	"download" : "papers/Generalova2019TalkAltaicCaus_slides.pdf"
 }, {
 	"title" : "V. Generalova, <strong>Markup of human-bot dialogues: Known problems and new challenges</strong>, Talk at the 61st Student’s Conference for Linguistics (StuTS), Zurich, Switzerland, May 2017.",
 	"tagYear" : ["2017"],
@@ -202,7 +202,7 @@ var db = [
 	"tagArea" : ["human-machine interaction"], 
 	"tagKeywords" : ["chatbots"], 
 	"bibtex" : "Generalova2017TalkDialogsMarkup",	
-	"download" : "/test-site/papers/Generalova2017TalkDialogsMarkup_slides.pdf"
+	"download" : "papers/Generalova2017TalkDialogsMarkup_slides.pdf"
 }, {
 	"title" : "V. Generalova, <strong>Lability of Russian deverbal adjectives</strong>, Talk at the XIX Conference of Young Linguists, St Petersburg State University, Russia, Apr. 2016.",
 	"tagYear" : ["2016"],
@@ -212,7 +212,7 @@ var db = [
 	"tagArea" : ["syntax", "morphology"],
 	"tagKeywords" : ["deverbal adjectives"], 
 	"bibtex" : "Generalova2016TalkDevAdjLabil",	
-	"download" : "/test-site/papers/Generalova2016TalkDevAdjLabil_program.pdf"
+	"download" : "papers/Generalova2016TalkDevAdjLabil_program.pdf"
 }, {
 	"title" : "V. Generalova, <strong>Paradigmatic relationship between Russian deverbal adjectives</strong>, Talk at the 49th Annual Meeting of the Societas Linguistica Europaea (SLE), Naples, Italy, Sep. 2016.",
 	"tagYear" : ["2016"],
@@ -232,7 +232,7 @@ var db = [
 	"tagArea" : ["syntax"],
 	"tagKeywords" : ["verbs of counteraction"],
 	"bibtex" : "Generalova2015TalkCounteractionPrepChoice",
-	"download" : "/test-site/papers/Generalova2015TalkCounteractionPrepChoice_abstract.pdf"
+	"download" : "papers/Generalova2015TalkCounteractionPrepChoice_abstract.pdf"
 },{
 	"title" : "V. Generalova, <strong>Human-machine interaction: 50 years of evolution</strong>, Talk at the Motorola Solutions Tech Expo 2015, St Petersburg, Russia; Krakow, Poland; Tel-Aviv, Israel (stream): Motorola Solutions Inc., Oct. 2015.",
 	"tagYear" : ["2015"],
@@ -262,7 +262,7 @@ var db = [
 	"tagArea" : ["syntax"],
 	"tagKeywords" : ["verbs of counteraction"], 
 	"bibtex" : "Generalova2015TalkWithAgainst",	
-	"download" : "/test-site/papers/Generalova2015TalkWithAgainst_abstract.pdf"
+	"download" : "papers/Generalova2015TalkWithAgainst_abstract.pdf"
 }, {
 	"title" : "V. Generalova, <strong>Ways of describing the meaning appealing to stereotypical characteristics</strong>, Talk at the XVI Conference of Young Linguists, St Petersburg State University, Russia, Apr. 2013.",
 	"tagYear" : ["2013"],
@@ -282,7 +282,7 @@ var db = [
 	"tagArea" : ["syntax", "semantics", "RRG"], 
 	"tagKeywords" : ["valence", "causatives", "argument linking"], 
 	"bibtex" : "Generalova2020TalkMacroroleAltern",	
-	"download" : "/test-site/papers/Generalova2020TalkMacroroleAltern_poster.pdf"	
+	"download" : "papers/Generalova2020TalkMacroroleAltern_poster.pdf"	
 }, {
 	"title" : "V. Generalova, <strong>Russian deverbal adjectives as relativization devices</strong>, Poster presentation at the 7th Annual Conference of Undergraduate Linguistics Association of Britain (ULAB), Cambridge, UK, May 2017.",
 	"tagYear" : ["2017"],
@@ -292,5 +292,5 @@ var db = [
 	"tagArea" : ["syntax"], 
 	"tagKeywords" : ["deverbal adjectives"], 
 	"bibtex" : "Generalova2017TalkDevAdjRel",	
-	"download" : "Generalova2017TalkDevAdjRel_program.pdf"
+	"download" : "papers/Generalova2017TalkDevAdjRel_program.pdf"
 }]
