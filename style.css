@@ -262,13 +262,19 @@ body ul{
   display: block;
   position: fixed; 
   z-index: 99; /* Sit on top */
-  width: 404px;
+  width: 444px;
   padding: 20px;
-  margin-top: 50px;
-  margin-left: 500px;
+  margin-top: 150px;
+  margin-left: 400px;
   overflow: auto; /* Enable scroll if needed */
-  /*background-color: #c6f7d3; */
-  background-color: rgba(198, 247, 211, 0.4); /* Black w/ opacity */
+  background-color: #035845 ; 
+  border: inset 12px #E88446 ;
+  color: white;
+  font-family: JosefinBold;
+}
+
+.reminder:hover{
+  cursor: pointer;
 }
 
 /*======================== CV page ==========================*/

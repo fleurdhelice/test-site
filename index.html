@@ -32,9 +32,9 @@
     <div class="mycontent" align="center">
       <div class="mypagecontent" align="center">
 
-<!--         <div class="reminder">
-          This is a friendly suggestion for you to get best experience from this site while using
-        </div> -->
+        <div class="reminder" onclick="myclose(this)">
+          This is a friendly suggestion for you to get the best experience from this website while accessing it from a full-size laptop or tablet screen, or at least having switched your smartphone to the album orientation. <br> Click on this message to dismiss it. <br> Welcome!
+        </div>
 
         <div class="layer1">
             <h1>Valeria Generalova</h1>
@@ -90,5 +90,12 @@ function topFunction() {
 }
 
 </script>
+
+<script>
+function myclose(element) { 
+    element.classList.toggle('hiddentext')
+  }
+</script>
+
   </body>
 </html>
