@@ -32,7 +32,7 @@ var db = [
 	"download" : "/test-site/papers/Generalova2020BWPL.pdf" 
 
 }, {
-	"title" : 'V. Generalova and <a href="https://user.phil.hhu.de/petitjean/" target="blank">S. Petitjean</a>, <strong>A prototype of a metagrammar describing three-argument constructions with a morphological causative</strong>, Typology of Morphosyntactic Parameters, Vol. 3.2, pp. 29-51, 2020.', 
+	"title" : 'V. Generalova and <a href="https://user.phil.hhu.de/petitjean/" target="_blank">S. Petitjean</a>, <strong>A prototype of a metagrammar describing three-argument constructions with a morphological causative</strong>, Typology of Morphosyntactic Parameters, Vol. 3.2, pp. 29-51, 2020.', 
 	"tagYear" : ["2020"], 
 	"tagPaperType" : ["article"],
 	"tagLang" : ["eng"],
@@ -133,7 +133,7 @@ var db = [
 	"bibtex" : "Generalova2020TalkTypologyCaus",	
 	"download" : "" 	
 }, {
-	"title" : 'V. Generalova and <a href="https://oxford.academia.edu/DariaKondakova" target="blank">D. Kondakova</a>, <strong>An approach to language periodization based on word usage: Looking for a pivot point in Latin</strong>, Talk at the DH Benelux 2018, Amsterdam, Netherlands, Jun. 2018.', //TODO add link to Kondakova
+	"title" : 'V. Generalova and <a href="https://oxford.academia.edu/DariaKondakova" target="_blank">D. Kondakova</a>, <strong>An approach to language periodization based on word usage: Looking for a pivot point in Latin</strong>, Talk at the DH Benelux 2018, Amsterdam, Netherlands, Jun. 2018.', //TODO add link to Kondakova
 	"tagYear" : ["2020"],
 	"tagPaperType" : ["talk"],
 	"tagLang" : ["eng"],
