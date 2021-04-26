@@ -262,10 +262,12 @@ body ul{
   display: block;
   position: fixed; 
   z-index: 99; /* Sit on top */
-  width: 444px;
+  /*width: 444px;*/
+  max-width: 444px;
   padding: 20px;
-  margin-top: 150px;
-  margin-left: 400px;
+  margin: 5%;
+/*  margin-top: 20%;
+  margin-left: 20%;*/
   overflow: auto; /* Enable scroll if needed */
   background-color: #035845 ; 
   border: inset 12px #E88446 ;
