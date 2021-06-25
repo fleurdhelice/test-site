@@ -1,5 +1,16 @@
 var db = [
 {
+	"title" : 'V. Generalova and <a href="https://user.phil.hhu.de/petitjean/" target="_blank">S. Petitjean</a>, <strong>Parsing morphological causatives with XMG</strong>, Talk at the TreeGraSP Meeting #6, Heinrich Heine University of Dusseldorf, Jun. 2021.', 
+	"tagYear" : ["2021"], 
+	"tagPaperType" : ["talk"],
+	"tagLang" : ["eng"],
+	"tagObjectLangs" : ["fin"], 
+	"tagArea" : ["syntax", "morphology", "computational"], 
+	"tagKeywords" : ["metagrammar", "causatives"], 
+	"bibtex" : "GeneralovaPetitjean2021MorphologicalCausXMG",	
+	"download" : "papers/GeneralovaPetitjean_MorphologicalCausXMG.pdf"
+
+},{
 	"title" : "V. Generalova, <strong>Towards an RRG analysis of constructions with a morphological causative in some Altaic languages</strong>, In: A. Tigău (ed.) The Syntax and Semantics of Internal Arguments. Special issue of Bucharest Working Papers in Linguistics, Vol. 22.2, pp. 97-120, 2020.",
 	"tagYear" : ["2020"],
 	"tagPaperType" : ["article"],
