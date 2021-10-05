@@ -8,7 +8,7 @@ var db = [
 	"tagArea" : ["syntax", "semantics", "RRG"], 
 	"tagKeywords" : ["argument linking", "metagrammar"], 
 	"bibtex" : "Generalova2021TalkStaticLaRRG",	
-	"download" : "papers/Generalova2021_StaticLinkingRRG_slides" 	
+	"download" : "papers/Generalova2021_StaticLinkingRRG_slides.pdf" 	
 },{
 	"title" : "V. Generalova, <strong>Describing valence-increasing constructions with XMG</strong>, In: F. Namer (ed.) Proceedings of the Third International Workshop on Resources and Tools for Derivational Morphology (DeriMo 2021), pp. 61-69, 2021.",
 	"tagYear" : ["2021"],
@@ -34,7 +34,7 @@ var db = [
 	"tagYear" : ["2021"], 
 	"tagPaperType" : ["in proceedings"],
 	"tagLang" : ["eng"],
-	"tagObjectLangs" : [""], 
+	"tagObjectLangs" : [], 
 	"tagArea" : ["syntax", "semantics", "morphology", "computational", "typology"], 
 	"tagKeywords" : ["metagrammar", "causatives"], 
 	"bibtex" : "GeneralovaPetitjean2021MorphologicalCausXMG",	
