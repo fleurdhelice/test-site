@@ -1,14 +1,44 @@
 var db = [
 {
-	"title" : 'V. Generalova and <a href="https://user.phil.hhu.de/petitjean/" target="_blank">S. Petitjean</a>, <strong>Parsing morphological causatives with XMG</strong>, Talk at the TreeGraSP Meeting #6, Heinrich Heine University of Dusseldorf, Jun. 2021.', 
-	"tagYear" : ["2021"], 
+	"title" : "V. Generalova, <strong>Whipping the Linking Algorithm into the feature structure shape</strong>, Talk at The 16th International Conference on Role and Reference Grammar, Toronto, Canada (online), Aug. 2021.",
+	"tagYear" : ["2021"],
 	"tagPaperType" : ["talk"],
 	"tagLang" : ["eng"],
-	"tagObjectLangs" : ["fin"], 
-	"tagArea" : ["syntax", "morphology", "computational"], 
+	"tagObjectLangs" : [],
+	"tagArea" : ["syntax", "semantics", "RRG"], 
+	"tagKeywords" : ["argument linking", "metagrammar"], 
+	"bibtex" : "Generalova2021TalkStaticLaRRG",	
+	"download" : "papers/Generalova2021_StaticLinkingRRG_slides" 	
+},{
+	"title" : "V. Generalova, <strong>Describing valence-increasing constructions with XMG</strong>, In: F. Namer (ed.) Proceedings of the Third International Workshop on Resources and Tools for Derivational Morphology (DeriMo 2021), pp. 61-69, 2021.",
+	"tagYear" : ["2021"],
+	"tagPaperType" : ["in proceedings"],
+	"tagLang" : ["eng"],
+	"tagObjectLangs" : [], 
+	"tagArea" : ["syntax", "semantics", "computational"], 
+	"tagKeywords" : ["valence", "causatives", "metagrammar"], 
+	"bibtex" : "Generalova2021DerimoProceedings",	
+	"download" : "papers/Generalova2021_DerimoProceedings.pdf", 
+},{
+	"title" : "V. Generalova, <strong>A conceptualization of language-specific metagrammatical classes in a multilingual project</strong>, In: M. Y. Pedersen & A. Pavlova (ed.) Proceedings of the ESSLLI 2021 Student Session, pp. 188-197, 2021.",
+	"tagYear" : ["2021"],
+	"tagPaperType" : ["in proceedings"],
+	"tagLang" : ["eng"],
+	"tagObjectLangs" : [], 
+	"tagArea" : ["syntax", "semantics", "typology", "computational"], 
+	"tagKeywords" : ["causatives", "metagrammar"], 
+	"bibtex" : "Generalova2021EsslliProceedings",	
+	"download" : "papers/Generalova2021_EsslliProceedings.pdf", 
+},{
+	"title" : 'V. Generalova and <a href="https://user.phil.hhu.de/petitjean/" target="_blank">S. Petitjean</a>, <strong>Parsing morphological causatives with XMG</strong>, Talk at the TreeGraSP Meeting #6, Heinrich Heine University of Dusseldorf, Jun. 2021.', 
+	"tagYear" : ["2021"], 
+	"tagPaperType" : ["in proceedings"],
+	"tagLang" : ["eng"],
+	"tagObjectLangs" : [""], 
+	"tagArea" : ["syntax", "semantics", "morphology", "computational", "typology"], 
 	"tagKeywords" : ["metagrammar", "causatives"], 
 	"bibtex" : "GeneralovaPetitjean2021MorphologicalCausXMG",	
-	"download" : "papers/GeneralovaPetitjean_MorphologicalCausXMG.pdf"
+	"download" : "papers/Generalova2021_EsslliProceedings.pdf"
 
 },{
 	"title" : "V. Generalova, <strong>Towards an RRG analysis of constructions with a morphological causative in some Altaic languages</strong>, In: A. Tigău (ed.) The Syntax and Semantics of Internal Arguments. Special issue of Bucharest Working Papers in Linguistics, Vol. 22.2, pp. 97-120, 2020.",
