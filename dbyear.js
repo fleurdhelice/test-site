@@ -1,5 +1,15 @@
 var db = [
 {
+	"title" : "V. Generalova, <strong>Review if the book <i>Voice syncretism</i>, by Nicklas N. Bahrt</strong>, LinguistList, Jan. 2022.",
+	"tagYear" : ["2021"],
+	"tagPaperType" : ["review"],
+	"tagLang" : ["eng"],
+	"tagObjectLangs" : [],
+	"tagArea" : ["syntax", "semantics", "morphology"], 
+	"tagKeywords" : ["valence"], 
+	"bibtex" : "Generalova2022ReviewVoiceSyncretism",	
+	"download" : "https://linguistlist.org/issues/33/33-237/" 	
+},{
 	"title" : "V. Generalova, <strong>Whipping the Linking Algorithm into the feature structure shape</strong>, Talk at The 16th International Conference on Role and Reference Grammar, Toronto, Canada (online), Aug. 2021.",
 	"tagYear" : ["2021"],
 	"tagPaperType" : ["talk"],
