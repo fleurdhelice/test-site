@@ -1,6 +1,6 @@
 var db = [
 {
-	"title" : "V. Generalova, <strong>Review if the book <i>Voice syncretism</i>, by Nicklas N. Bahrt</strong>, LinguistList, Jan. 2022.",
+	"title" : "V. Generalova, <strong>Review of the book <i>Voice syncretism</i>, by Nicklas N. Bahrt</strong>, LinguistList, Jan. 2022.",
 	"tagYear" : ["2021"],
 	"tagPaperType" : ["review"],
 	"tagLang" : ["eng"],
