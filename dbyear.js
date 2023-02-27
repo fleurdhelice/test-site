@@ -1,5 +1,15 @@
 var db = [
 {
+	"title" : 'Tatiana Bladier, Kilian Evang, <u>Valeria Generalova</u>, Laura Kallmeyer, Robin Möllemann, Natalia Moors, Rainer Oswald, Simon Petitjean, <strong>RRGparbank: a Parallel Role and Reference Grammar Treebank</strong>, In: Proceedings of the 13th Conference on Language Resources and Evaluation (LREC 2022), pages 4833–4841, Marseille, 20-25 June 2022.'
+	"tagYear" : ["2022"], 
+	"tagPaperType" : ["in proceedings"],
+	"tagLang" : ["eng"],
+	"tagObjectLangs" : ["eng", "rus", "deu", "fra", "pes"], 
+	"tagArea" : ["syntax", "computational", "typology", "RRG"], 
+	"tagKeywords" : ["treebank"], 
+	"bibtex" : "Bladier-et-al_2022_RRGParBank.html",	
+	"download" : "https://aclanthology.org/2022.lrec-1.517/"
+},{
 	"title" : 'V. Generalova and <a href="https://user.phil.hhu.de/petitjean/" target="_blank">S. Petitjean</a>, <strong>A metagrammar of causatives in morphologically rich languages</strong>, In: J. Vičič and B. Kavšek (eds.) Proceedings of the International Conference and Workshop on Agglutinative Language Technologies as a Challenge of Natural Language Processing (ALTNLP), 7-8 June 2022', 
 	"tagYear" : ["2022"], 
 	"tagPaperType" : ["in proceedings"],
