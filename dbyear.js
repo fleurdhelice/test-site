@@ -1,6 +1,6 @@
 var db = [
 {
-	"title" : 'Tatiana Bladier, Kilian Evang, <u>Valeria Generalova</u>, Laura Kallmeyer, Robin Möllemann, Natalia Moors, Rainer Oswald, Simon Petitjean, <strong>RRGparbank: a Parallel Role and Reference Grammar Treebank</strong>, In: Proceedings of the 13th Conference on Language Resources and Evaluation (LREC 2022), pages 4833–4841, Marseille, 20-25 June 2022.'
+	"title" : 'Tatiana Bladier, Kilian Evang, <u>Valeria Generalova</u>, Laura Kallmeyer, Robin Möllemann, Natalia Moors, Rainer Oswald, Simon Petitjean, <strong>RRGparbank: a Parallel Role and Reference Grammar Treebank</strong>, In: Proceedings of the 13th Conference on Language Resources and Evaluation (LREC 2022), pages 4833–4841, Marseille, 20-25 June 2022.',
 	"tagYear" : ["2022"], 
 	"tagPaperType" : ["in proceedings"],
 	"tagLang" : ["eng"],
